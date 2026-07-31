@@ -6,21 +6,47 @@ summary: "Sobre mí"
 
 ## Sobre mí
 
-Escribe aquí tu presentación profesional. Por ejemplo: quién eres, tu formación,
-tus áreas de investigación e intereses profesionales.
+Soy **Albert Moises Ponce Villegas**, especialista en Ciencias Económicas y
+Administrativas con más de 6 años de experiencia en planificación estratégica,
+análisis socioeconómico, diseño de indicadores y monitoreo de proyectos de
+sostenibilidad y adaptación climática.
 
-Puedes mencionar tu trayectoria, tu institución actual y las líneas de trabajo
-que más te apasionan.
+Mi trabajo se ha centrado en el diseño de estrategias de *fundraising*, la
+formulación de propuestas técnicas para la cooperación internacional y la
+articulación de alianzas estratégicas con actores clave nacionales e
+internacionales. Tengo experiencia estructurando sistemas de **Monitoreo,
+Reporte y Verificación (MRV)**, institucionalizando salvaguardas ambientales y
+sociales, y aplicando metodologías cuantitativas y cualitativas.
+
+Complemento mi perfil técnico con experiencia en investigación aplicada,
+docencia y publicaciones académicas en gestión pública y sostenibilidad.
+Actualmente me desempeño como **Coordinador de Planificación en CEDEP** (Centro
+de Estudios para el Desarrollo y la Participación).
 
 ### Enlaces
 
-- 📄 [Descargar mi CV](/cv.pdf)
-- 🎓 [Google Scholar](https://scholar.google.com/)
+- 📄 [Descargar mi CV (PDF)](/cv.pdf)
+- 🎓 [Google Scholar](https://scholar.google.com/citations?user=l4y-ybsAAAAJ&hl=es)
+- ✍️ [Mis artículos en Medium](https://albponce.medium.com)
 - ✉️ [aponce@cedepperu.org](mailto:aponce@cedepperu.org)
-- ✍️ [Mis artículos en Medium](https://medium.com/)
-- 📷 [Mi página de fotos](https://ejemplo.com/fotos)
+
+### Formación
+
+- **Bachiller en Economía** — Universidad Continental (2025)
+- **Intercambio académico en Ingeniería Comercial** — Universidad Andrés Bello, Chile (2022)
+- **Licenciatura en Administración** — Universidad Nacional Mayor de San Marcos (2020)
+
+### Competencias técnicas
+
+- Planificación estratégica y gestión de proyectos
+- Economía ambiental y valoración económica de servicios ecosistémicos
+- Diseño de Mecanismos de Retribución por Servicios Ecosistémicos (MERESE)
+- Formulación de propuestas técnicas para cooperación internacional y *fundraising*
+- Investigación aplicada (métodos cuantitativos y cualitativos)
+- Análisis y visualización de datos (R, Power BI, Atlas.ti, KoboToolbox)
 
 ### Intereses personales
 
-Un breve párrafo sobre tus intereses fuera del ámbito profesional —
-por ejemplo, la fotografía u otras aficiones que reflejen tu perfil personal.
+Más allá del ámbito profesional, disfruto de la fotografía como forma de
+registrar territorios, comunidades y paisajes. *(Aquí puedes enlazar tu página
+de fotos cuando la tengas lista.)*

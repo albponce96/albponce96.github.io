@@ -1,28 +1,31 @@
 ---
 title: "Teaching"
 url: "/teaching/"
-summary: "Experiencia docente"
+summary: "Experiencia docente y de capacitación"
 ---
 
-## Experiencia docente
+## Docencia y capacitación
 
-Resumen de mi experiencia como docente: cursos impartidos, niveles,
-instituciones y áreas de especialización.
-
----
-
-### Curso 1 — Nombre del curso
-*Institución · Año(s)*
-Nivel (pregrado / posgrado). Breve descripción del curso y temas cubiertos.
+He ejercido la docencia y la capacitación en instituciones de Perú y Chile,
+combinando la enseñanza de idiomas con la asistencia de cátedra en áreas de
+administración, banca y finanzas.
 
 ---
 
-### Curso 2 — Nombre del curso
-*Institución · Año(s)*
-Nivel. Breve descripción del curso.
+### Centro de Idiomas — Universidad Continental
+*Perú · Docente · dic 2025 – actualidad*
 
 ---
 
-### Curso 3 — Nombre del curso
-*Institución · Año(s)*
-Nivel. Breve descripción del curso.
+### Universidad Central de Chile
+*Chile · Ayudante de cátedra · set – dic 2022*
+
+---
+
+### Universidad Nacional Mayor de San Marcos
+*Perú · Asistente de cátedra, Banca y Finanzas · 2020*
+
+---
+
+### Idiomas Belfort e IEP Ciencias y Humanidades
+*Perú · Docente · 2020 – 2023*

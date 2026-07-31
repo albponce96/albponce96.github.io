@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Estilo personalizado — Albert Ponce Villegas
+   Paleta verde/teal (sostenibilidad) + títulos serif (aire académico)
+   ========================================================================== */
+
+/* --- Paleta de colores (modo claro) --- */
+:root {
+    --primary: #0f4c47;          /* teal oscuro para títulos/texto fuerte */
+    --secondary: #35706a;        /* teal medio para texto secundario */
+    --tertiary: #e8f0ee;         /* verde muy claro para fondos sutiles */
+    --content: #23302e;          /* color del cuerpo de texto */
+    --hljs-bg: #f4f7f6;
+    --code-bg: #eef3f1;
+    --border: #d3e0dc;
+    --theme: #fbfdfc;            /* fondo general */
+    --entry: #ffffff;           /* fondo de tarjetas */
+    --accent: #0d7a6e;          /* color de acento para enlaces/botones */
+}
+
+/* --- Paleta de colores (modo oscuro) --- */
+.dark {
+    --theme: #10201d;
+    --entry: #172b28;
+    --primary: #d8efe9;
+    --secondary: #a9c6c0;
+    --tertiary: #1d3833;
+    --content: #d3e2de;
+    --border: #26433d;
+    --accent: #3fbfae;
+    --code-bg: #172b28;
+    --hljs-bg: #172b28;
+}
+
+/* --- Tipografía: títulos en serif, cuerpo en sans limpio --- */
+:root {
+    --gap: 24px;
+}
+
+body {
+    font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.1px;
+}
+
+h1, h2, h3, h4,
+.entry-header h1,
+.post-title,
+.profile h1,
+header .logo {
+    font-family: Georgia, "Times New Roman", "Iowan Old Style", serif;
+    letter-spacing: -0.2px;
+}
+
+/* Títulos de sección con una línea de acento a la izquierda */
+.post-content h2,
+.post-content h3 {
+    color: var(--primary);
+}
+
+.post-content h2 {
+    border-left: 4px solid var(--accent);
+    padding-left: 12px;
+    margin-top: 2rem;
+}
+
+/* --- Enlaces --- */
+.post-content a {
+    color: var(--accent);
+    box-shadow: 0 1px 0 0 var(--accent);
+    text-decoration: none;
+}
+.post-content a:hover {
+    background: var(--tertiary);
+}
+
+/* --- Botones del perfil (home) --- */
+.buttons .button {
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+.buttons .button:hover {
+    background: var(--accent);
+    color: #ffffff;
+}
+.button-inner {
+    font-weight: 600;
+}
+
+/* --- Foto de perfil circular con borde de acento --- */
+.profile img {
+    border-radius: 50%;
+    border: 3px solid var(--accent);
+    object-fit: cover;
+}
+
+/* --- Subtítulo del perfil --- */
+.profile .profile_inner h1 {
+    margin-bottom: 8px;
+}
+
+/* --- Separadores horizontales más suaves --- */
+.post-content hr {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 1.5rem 0;
+}
+
+/* --- Menú de navegación superior --- */
+#menu a {
+    font-weight: 600;
+}
+.nav .logo a {
+    color: var(--primary);
+}
+
+/* --- Ancho de lectura un poco más contenido --- */
+.main {
+    max-width: 780px;
+}

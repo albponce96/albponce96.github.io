@@ -1,39 +1,38 @@
 baseURL = 'https://albponce96.github.io/'
 languageCode = 'es-es'
-title = 'Tu Nombre — Perfil Académico'
+title = 'Albert Ponce Villegas'
 theme = 'PaperMod'
 
 # Paginación
 [pagination]
-  pagerSize = 5
+  pagerSize = 10
 
 # Habilitar features
 enableInlineShortcodes = true
 enableRobotsTXT = true
 
 [params]
-  # Descripción del sitio (para SEO)
-  description = "Perfil académico y profesional"
-  author = "Tu Nombre"
+  description = "Albert Moises Ponce Villegas — Consultor en Sostenibilidad y especialista en Monitoreo, Evaluación y Aprendizaje (MEL)."
+  author = "Albert Ponce Villegas"
 
-  # Modo por defecto y toggle de tema claro/oscuro
   defaultTheme = "auto"
   ShowShareButtons = false
-  ShowReadingTime = true
+  ShowReadingTime = false
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = false
-  ShowToc = true
+  ShowToc = false
+  DateFormat = "2006"
 
   # Perfil en la home (modo landing page)
   [params.profileMode]
     enabled = true
-    title = "Tu Nombre"
-    subtitle = "Investigador · Consultor · Docente"
+    title = "Albert Moises Ponce Villegas"
+    subtitle = "Consultor en Sostenibilidad · Monitoreo, Evaluación y Aprendizaje (MEL)<br>Lima, Perú"
     imageUrl = "/images/profile.jpg"
     imageWidth = 150
     imageHeight = 150
-    imageTitle = "Foto de perfil"
+    imageTitle = "Albert Ponce Villegas"
 
     [[params.profileMode.buttons]]
       name = "About me"
@@ -54,16 +53,19 @@ enableRobotsTXT = true
   # Enlaces sociales (aparecen bajo el perfil)
   [[params.socialIcons]]
     name = "email"
+    title = "Correo electrónico"
     url = "mailto:aponce@cedepperu.org"
   [[params.socialIcons]]
     name = "googlescholar"
-    url = "https://scholar.google.com/"
+    title = "Google Scholar"
+    url = "https://scholar.google.com/citations?user=l4y-ybsAAAAJ&hl=es"
   [[params.socialIcons]]
     name = "medium"
-    url = "https://medium.com/"
+    title = "Medium"
+    url = "https://albponce.medium.com"
   [[params.socialIcons]]
     name = "cv"
-    title = "Descargar CV"
+    title = "Descargar CV (PDF)"
     url = "/cv.pdf"
 
 # Menú de navegación superior
