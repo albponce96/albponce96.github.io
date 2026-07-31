@@ -1,0 +1,99 @@
+baseURL = 'https://albponce96.github.io/'
+languageCode = 'es-es'
+title = 'Tu Nombre — Perfil Académico'
+theme = 'PaperMod'
+
+# Paginación
+[pagination]
+  pagerSize = 5
+
+# Habilitar features
+enableInlineShortcodes = true
+enableRobotsTXT = true
+
+[params]
+  # Descripción del sitio (para SEO)
+  description = "Perfil académico y profesional"
+  author = "Tu Nombre"
+
+  # Modo por defecto y toggle de tema claro/oscuro
+  defaultTheme = "auto"
+  ShowShareButtons = false
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = false
+  ShowToc = true
+
+  # Perfil en la home (modo landing page)
+  [params.profileMode]
+    enabled = true
+    title = "Tu Nombre"
+    subtitle = "Investigador · Consultor · Docente"
+    imageUrl = "/images/profile.jpg"
+    imageWidth = 150
+    imageHeight = 150
+    imageTitle = "Foto de perfil"
+
+    [[params.profileMode.buttons]]
+      name = "About me"
+      url = "about"
+    [[params.profileMode.buttons]]
+      name = "Research"
+      url = "research"
+    [[params.profileMode.buttons]]
+      name = "Consultancy"
+      url = "consultancy"
+    [[params.profileMode.buttons]]
+      name = "Teaching"
+      url = "teaching"
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "projects"
+
+  # Enlaces sociales (aparecen bajo el perfil)
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:aponce@cedepperu.org"
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/"
+  [[params.socialIcons]]
+    name = "medium"
+    url = "https://medium.com/"
+  [[params.socialIcons]]
+    name = "cv"
+    title = "Descargar CV"
+    url = "/cv.pdf"
+
+# Menú de navegación superior
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 20
+  [[menu.main]]
+    identifier = "consultancy"
+    name = "Consultancy"
+    url = "/consultancy/"
+    weight = 30
+  [[menu.main]]
+    identifier = "teaching"
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 40
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 50
+
+# Permitir HTML en Markdown
+[markup.goldmark.renderer]
+  unsafe = true
