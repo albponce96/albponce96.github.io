@@ -682,3 +682,43 @@ header .logo {
     gap: 5px;
     margin-top: auto;
 }
+
+/* ==========================================================================
+   PROYECTOS — Estadísticas, grupos de botones y tarjetas
+   ========================================================================== */
+.proj-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0.6rem 0 1rem;
+}
+.stat-pill {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    background: var(--tertiary);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 5px 14px;
+}
+.stat-pill b {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.15rem;
+    color: var(--primary);
+    line-height: 1;
+}
+.stat-pill span {
+    font-size: 0.8rem;
+    color: var(--secondary);
+}
+.link-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: auto;
+}
+.link-row .tl-link { margin: 0; }
+/* Estadísticas compactas dentro de una tarjeta */
+.cons-card .proj-stats { margin: 0.2rem 0 0.7rem; }
+.cons-card .proj-stats .stat-pill { padding: 3px 11px; }
+.cons-card .proj-stats .stat-pill b { font-size: 1rem; }
