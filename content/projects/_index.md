@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Proyectos"
 url: "/projects/"
 summary: "Proyectos en curso"
 ---

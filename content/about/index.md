@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "Sobre mí"
 url: "/about/"
 summary: "Sobre mí"
 ---
@@ -23,6 +23,8 @@ docencia y publicaciones académicas en gestión pública y sostenibilidad.
 Actualmente me desempeño como **Coordinador de Planificación en CEDEP** (Centro
 de Estudios para el Desarrollo y la Participación).
 
+---
+
 ### Enlaces
 
 <a class="cv-button" href="/cv.pdf" target="_blank" rel="noopener">📄 Conoce mi CV</a>
@@ -32,11 +34,15 @@ de Estudios para el Desarrollo y la Participación).
 - ✍️ [Mis artículos en Medium](https://albponce.medium.com)
 - ✉️ [alb.ponce96@gmail.com](mailto:alb.ponce96@gmail.com)
 
+---
+
 ### Formación
 
 - **Bachiller en Economía** — Universidad Continental (2025)
 - **Intercambio académico en Ingeniería Comercial** — Universidad Andrés Bello, Chile (2022)
 - **Licenciatura en Administración** — Universidad Nacional Mayor de San Marcos (2020)
+
+---
 
 ### Competencias técnicas
 
@@ -46,6 +52,8 @@ de Estudios para el Desarrollo y la Participación).
 - Formulación de propuestas técnicas para cooperación internacional y *fundraising*
 - Investigación aplicada (métodos cuantitativos y cualitativos)
 - Análisis y visualización de datos (R, Power BI, Atlas.ti, KoboToolbox)
+
+---
 
 ### Intereses personales
 

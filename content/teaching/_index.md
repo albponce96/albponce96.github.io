@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: "Docencia"
 url: "/teaching/"
 summary: "Experiencia docente y de capacitación"
 ---

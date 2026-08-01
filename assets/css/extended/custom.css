@@ -386,7 +386,8 @@ header .logo {
     gap: 10px;
     margin: 1.2rem 0 0.4rem;
 }
-#research-search {
+#research-search,
+#consultancy-search {
     width: 100%;
     padding: 9px 14px;
     border: 1px solid var(--border);
@@ -396,8 +397,10 @@ header .logo {
     font-family: inherit;
     font-size: 0.95rem;
 }
-#research-search::placeholder { color: var(--secondary); opacity: 0.8; }
-#research-search:focus {
+#research-search::placeholder,
+#consultancy-search::placeholder { color: var(--secondary); opacity: 0.8; }
+#research-search:focus,
+#consultancy-search:focus {
     outline: none;
     border-color: var(--accent);
     box-shadow: 0 0 0 3px rgba(13, 122, 110, 0.15);
@@ -551,5 +554,119 @@ header .logo {
 }
 .talk-card .tl-link {
     align-self: flex-start;
+    margin-top: auto;
+}
+
+/* ==========================================================================
+   RESEARCH — Timeline colapsable (clic en el año)
+   ========================================================================== */
+.timeline--research .tl-year {
+    cursor: pointer;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    width: fit-content;
+}
+.timeline--research .tl-year::after {
+    content: "▾";
+    font-size: 0.7em;
+    color: var(--secondary);
+    transition: transform 0.15s ease;
+}
+.timeline--research .tl-year:hover { text-decoration: underline; }
+.tl-item.collapsed .tl-year::after { content: "▸"; }
+.tl-item.collapsed .tl-card { display: none; }
+
+/* ==========================================================================
+   CONSULTANCY — Buscador, etiquetas de colores y grid de tarjetas
+   ========================================================================== */
+/* Etiquetas de palabras clave (colores por temática) */
+.kw {
+    display: inline-block;
+    font-family: inherit;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 2px 9px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.kw--fin    { background: #d97706; }
+.kw--merese { background: #0d7a6e; }
+.kw--cons   { background: #2f9e44; }
+.kw--areas  { background: #7d8b2a; }
+.kw--mrv    { background: #1c7ed6; }
+.kw--val    { background: #7048e8; }
+.kw--merc   { background: #c2255c; }
+.kw--gob    { background: #3b5bdb; }
+.kw--estr   { background: #e8590c; }
+.kw--all    { background: var(--secondary); }
+
+/* Chips de filtro (versión atenuada hasta activarse) */
+.kw-chip { opacity: 0.5; }
+.kw-chip:hover { opacity: 1; }
+.kw-chip.active {
+    opacity: 1;
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.28);
+}
+
+/* Grid de tarjetas de consultoría */
+.cons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    margin-top: 0.9rem;
+}
+.cons-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.1rem 1.2rem 1.2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.cons-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+.cons-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 0.15rem;
+}
+.cons-org {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--primary);
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.cons-date {
+    color: var(--secondary);
+    font-size: 0.78rem;
+    white-space: nowrap;
+}
+.cons-role {
+    color: var(--secondary);
+    font-style: italic;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+.cons-desc {
+    font-size: 0.9rem;
+    margin: 0 0 0.8rem;
+    flex-grow: 1;
+}
+.cons-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
     margin-top: auto;
 }

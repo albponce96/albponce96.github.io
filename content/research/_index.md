@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Investigación"
 url: "/research/"
 summary: "Investigación, publicaciones y presentaciones académicas"
 ---
@@ -206,6 +206,18 @@ presentaciones académicas aparecen al final de la página.
       filterByTopic(tag.getAttribute('data-topic'));
       var anchor = document.getElementById('research-controls');
       if (anchor && anchor.scrollIntoView) anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // Colapsar / desplegar cada investigación al hacer clic en el año
+  document.querySelectorAll('#investigaciones .tl-year').forEach(function (year) {
+    year.setAttribute('role', 'button');
+    year.setAttribute('tabindex', '0');
+    year.setAttribute('title', 'Mostrar u ocultar los detalles');
+    function toggle() { year.closest('.tl-item').classList.toggle('collapsed'); }
+    year.addEventListener('click', toggle);
+    year.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
     });
   });
 

@@ -35,19 +35,19 @@ enableRobotsTXT = true
     imageTitle = "Albert Ponce Villegas"
 
     [[params.profileMode.buttons]]
-      name = "👤 About me"
+      name = "👤 Sobre mí"
       url = "about"
     [[params.profileMode.buttons]]
-      name = "📚 Research"
+      name = "📚 Investigación"
       url = "research"
     [[params.profileMode.buttons]]
-      name = "💼 Consultancy"
+      name = "💼 Consultoría"
       url = "consultancy"
     [[params.profileMode.buttons]]
-      name = "🎓 Teaching"
+      name = "🎓 Docencia"
       url = "teaching"
     [[params.profileMode.buttons]]
-      name = "🚀 Projects"
+      name = "🚀 Proyectos"
       url = "projects"
 
   # Enlaces sociales (aparecen bajo el perfil)
@@ -77,31 +77,31 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "about"
     pre = "👤 "
-    name = "About"
+    name = "Sobre mí"
     url = "/about/"
     weight = 10
   [[menu.main]]
     identifier = "research"
     pre = "📚 "
-    name = "Research"
+    name = "Investigación"
     url = "/research/"
     weight = 20
   [[menu.main]]
     identifier = "consultancy"
     pre = "💼 "
-    name = "Consultancy"
+    name = "Consultoría"
     url = "/consultancy/"
     weight = 30
   [[menu.main]]
     identifier = "teaching"
     pre = "🎓 "
-    name = "Teaching"
+    name = "Docencia"
     url = "/teaching/"
     weight = 40
   [[menu.main]]
     identifier = "projects"
     pre = "🚀 "
-    name = "Projects"
+    name = "Proyectos"
     url = "/projects/"
     weight = 50
 
