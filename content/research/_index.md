@@ -153,6 +153,18 @@ presentaciones académicas aparecen al final de la página.
 </div>
 </div>
 
+<div class="presentations-box">
+<div class="presentations-head">📋 Comité revisor</div>
+<div class="talks-grid">
+<div class="talk-card">
+<span class="talk-year">2023</span>
+<h3 class="talk-title">RAN — Revista de Academia &amp; Negocios</h3>
+<p class="talk-pub">Universidad de Concepción, Chile</p>
+<p class="talk-syn">Miembro del comité revisor · Vol. 9, Núm. 1 (2023).</p>
+</div>
+</div>
+</div>
+
 <script>
 (function () {
   var search = document.getElementById('research-search');
