@@ -6,7 +6,7 @@ summary: "Sobre mí"
 
 ## Sobre mí
 
-Soy **Albert Moises Ponce Villegas**, especialista en Ciencias Económicas y
+Soy **Albert Ponce Villegas**, especialista en Ciencias Económicas y
 Administrativas con más de 6 años de experiencia en planificación estratégica,
 análisis socioeconómico, diseño de indicadores y monitoreo de proyectos de
 sostenibilidad y adaptación climática.
