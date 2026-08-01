@@ -38,6 +38,9 @@ enableRobotsTXT = true
       name = "👤 Sobre mí"
       url = "about"
     [[params.profileMode.buttons]]
+      name = "🏢 Experiencia"
+      url = "experience"
+    [[params.profileMode.buttons]]
       name = "📚 Investigación"
       url = "research"
     [[params.profileMode.buttons]]
@@ -80,6 +83,12 @@ enableRobotsTXT = true
     name = "Sobre mí"
     url = "/about/"
     weight = 10
+  [[menu.main]]
+    identifier = "experience"
+    pre = "🏢 "
+    name = "Experiencia"
+    url = "/experience/"
+    weight = 15
   [[menu.main]]
     identifier = "research"
     pre = "📚 "
