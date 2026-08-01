@@ -605,6 +605,18 @@ header .logo {
 .kw--estr   { background: #e8590c; }
 .kw--all    { background: var(--secondary); }
 
+/* Colores de las temáticas de Investigación (tonalidad afín a la web) */
+.kw--turismo        { background: #0d7a6e; }
+.kw--gestion        { background: #1c7ed6; }
+.kw--innovacion     { background: #e8590c; }
+.kw--sostenibilidad { background: #2f9e44; }
+.kw--hidricos       { background: #1098ad; }
+.kw--covid          { background: #b5432f; }
+.kw--finanzas       { background: #b7791f; }
+.kw--datos          { background: #6741d9; }
+.kw--empleo         { background: #c2255c; }
+.kw--govtech        { background: #087f5b; }
+
 /* Chips de filtro (versión atenuada hasta activarse) */
 .kw-chip { opacity: 0.5; }
 .kw-chip:hover { opacity: 1; }

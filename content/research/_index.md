@@ -4,8 +4,6 @@ url: "/research/"
 summary: "Investigación, publicaciones y presentaciones académicas"
 ---
 
-## Investigación
-
 Mi producción académica se centra en investigaciones sobre sostenibilidad,
 gestión pública, turismo y economía del comportamiento, publicadas en revistas
 indexadas. Usa el **buscador** o filtra por **temática** para explorarlas. Las
@@ -14,17 +12,17 @@ presentaciones académicas aparecen al final de la página.
 <div class="research-controls" id="research-controls">
 <input id="research-search" type="search" placeholder="🔍 Buscar por título, tema o publicación…" autocomplete="off" aria-label="Buscar investigaciones">
 <div class="research-topics">
-<button type="button" class="topic-chip active" data-topic="all">Todas</button>
-<button type="button" class="topic-chip" data-topic="turismo">Turismo</button>
-<button type="button" class="topic-chip" data-topic="gestion-publica">Gestión pública</button>
-<button type="button" class="topic-chip" data-topic="innovacion">Innovación</button>
-<button type="button" class="topic-chip" data-topic="sostenibilidad">Sostenibilidad</button>
-<button type="button" class="topic-chip" data-topic="recursos-hidricos">Recursos hídricos</button>
-<button type="button" class="topic-chip" data-topic="covid-19">COVID-19</button>
-<button type="button" class="topic-chip" data-topic="educacion-financiera">Educación financiera</button>
-<button type="button" class="topic-chip" data-topic="datos-abiertos">Datos abiertos</button>
-<button type="button" class="topic-chip" data-topic="empleabilidad">Empleabilidad</button>
-<button type="button" class="topic-chip" data-topic="govtech">GovTech</button>
+<button type="button" class="kw kw-chip kw--all active" data-topic="all">Todas</button>
+<button type="button" class="kw kw-chip kw--turismo" data-topic="turismo">Turismo</button>
+<button type="button" class="kw kw-chip kw--gestion" data-topic="gestion-publica">Gestión pública</button>
+<button type="button" class="kw kw-chip kw--innovacion" data-topic="innovacion">Innovación</button>
+<button type="button" class="kw kw-chip kw--sostenibilidad" data-topic="sostenibilidad">Sostenibilidad</button>
+<button type="button" class="kw kw-chip kw--hidricos" data-topic="recursos-hidricos">Recursos hídricos</button>
+<button type="button" class="kw kw-chip kw--covid" data-topic="covid-19">COVID-19</button>
+<button type="button" class="kw kw-chip kw--finanzas" data-topic="educacion-financiera">Educación financiera</button>
+<button type="button" class="kw kw-chip kw--datos" data-topic="datos-abiertos">Datos abiertos</button>
+<button type="button" class="kw kw-chip kw--empleo" data-topic="empleabilidad">Empleabilidad</button>
+<button type="button" class="kw kw-chip kw--govtech" data-topic="govtech">GovTech</button>
 </div>
 </div>
 
@@ -33,7 +31,7 @@ presentaciones académicas aparecen al final de la página.
 <div class="timeline timeline--research" id="investigaciones">
 <div class="tl-item" data-topics="educacion-financiera turismo covid-19">
 <div class="tl-year">2026</div>
-<div class="tl-tags"><button type="button" class="tl-tag" data-topic="educacion-financiera">Educación financiera</button><button type="button" class="tl-tag" data-topic="turismo">Turismo</button><button type="button" class="tl-tag" data-topic="covid-19">COVID-19</button></div>
+<div class="tl-tags"><button type="button" class="kw kw--finanzas" data-topic="educacion-financiera">Educación financiera</button><button type="button" class="kw kw--turismo" data-topic="turismo">Turismo</button><button type="button" class="kw kw--covid" data-topic="covid-19">COVID-19</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Educación financiera y turismo comunitario: lecciones de un programa piloto de tutorías personalizadas en líderes comunitarios del Valle del Colca</h3>
 <div class="tl-meta"><span class="tl-pub">Gestión en el Tercer Milenio · UNMSM (2026)</span><span class="tl-fund">Financiamiento ≈ USD 2,000</span></div>
@@ -44,7 +42,7 @@ presentaciones académicas aparecen al final de la página.
 </div>
 <div class="tl-item" data-topics="govtech gestion-publica innovacion">
 <div class="tl-year">2023</div>
-<div class="tl-tags"><button type="button" class="tl-tag" data-topic="govtech">GovTech</button><button type="button" class="tl-tag" data-topic="gestion-publica">Gestión pública</button><button type="button" class="tl-tag" data-topic="innovacion">Innovación</button></div>
+<div class="tl-tags"><button type="button" class="kw kw--govtech" data-topic="govtech">GovTech</button><button type="button" class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</button><button type="button" class="kw kw--innovacion" data-topic="innovacion">Innovación</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Serie GovTech Latinoamérica: lecciones aprendidas y posibilidades del ecosistema</h3>
 <div class="tl-meta"><span class="tl-pub">Futuro Público (2023)</span></div>
@@ -55,7 +53,7 @@ presentaciones académicas aparecen al final de la página.
 </div>
 <div class="tl-item" data-topics="recursos-hidricos sostenibilidad">
 <div class="tl-year">2023</div>
-<div class="tl-tags"><button type="button" class="tl-tag" data-topic="recursos-hidricos">Recursos hídricos</button><button type="button" class="tl-tag" data-topic="sostenibilidad">Sostenibilidad</button></div>
+<div class="tl-tags"><button type="button" class="kw kw--hidricos" data-topic="recursos-hidricos">Recursos hídricos</button><button type="button" class="kw kw--sostenibilidad" data-topic="sostenibilidad">Sostenibilidad</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Glosario de Términos para Fondos de Agua</h3>
 <div class="tl-meta"><span class="tl-pub">Aquafondo — Fondo de Agua para Lima y Callao (2023)</span></div>
@@ -66,7 +64,7 @@ presentaciones académicas aparecen al final de la página.
 </div>
 <div class="tl-item" data-topics="turismo covid-19">
 <div class="tl-year">2023</div>
-<div class="tl-tags"><button type="button" class="tl-tag" data-topic="turismo">Turismo</button><button type="button" class="tl-tag" data-topic="covid-19">COVID-19</button></div>
+<div class="tl-tags"><button type="button" class="kw kw--turismo" data-topic="turismo">Turismo</button><button type="button" class="kw kw--covid" data-topic="covid-19">COVID-19</button></div>
 <div class="tl-card">
 <h3 class="tl-title">La repercusión pandémica en las agencias de viaje y hospedajes del destino Pacaya Samiria, Perú: una aproximación cualitativa</h3>
 <div class="tl-meta"><span class="tl-pub">Cap. 7 — «Turismo en tiempos de cambio», CIET (2023)</span><span class="tl-fund">Financiamiento ≈ USD 2,000</span></div>
@@ -77,7 +75,7 @@ presentaciones académicas aparecen al final de la página.
 </div>
 <div class="tl-item" data-topics="innovacion gestion-publica turismo">
 <div class="tl-year">2021</div>
-<div class="tl-tags"><button type="button" class="tl-tag" data-topic="innovacion">Innovación</button><button type="button" class="tl-tag" data-topic="gestion-publica">Gestión pública</button><button type="button" class="tl-tag" data-topic="turismo">Turismo</button></div>
+<div class="tl-tags"><button type="button" class="kw kw--innovacion" data-topic="innovacion">Innovación</button><button type="button" class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</button><button type="button" class="kw kw--turismo" data-topic="turismo">Turismo</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Laboratorios de innovación en economías emergentes: fundamentos básicos para el sector público</h3>
 <div class="tl-meta"><span class="tl-pub">Revista Saber Servir (2021)</span><span class="tl-fund">Financiamiento ≈ USD 1,000</span></div>
@@ -87,7 +85,7 @@ presentaciones académicas aparecen al final de la página.
 </div>
 <div class="tl-item" data-topics="turismo covid-19 gestion-publica">
 <div class="tl-year">2021</div>
-<div class="tl-tags"><button type="button" class="tl-tag" data-topic="turismo">Turismo</button><button type="button" class="tl-tag" data-topic="covid-19">COVID-19</button><button type="button" class="tl-tag" data-topic="gestion-publica">Gestión pública</button></div>
+<div class="tl-tags"><button type="button" class="kw kw--turismo" data-topic="turismo">Turismo</button><button type="button" class="kw kw--covid" data-topic="covid-19">COVID-19</button><button type="button" class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</button></div>
 <div class="tl-card">
 <h3 class="tl-title">El impacto de la Covid-19 en los destinos internacionales del Perú y opciones de política pública</h3>
 <div class="tl-meta"><span class="tl-pub">Gestión en el Tercer Milenio · UNMSM (2021)</span></div>
@@ -98,7 +96,7 @@ presentaciones académicas aparecen al final de la página.
 </div>
 <div class="tl-item" data-topics="datos-abiertos gestion-publica">
 <div class="tl-year">2020</div>
-<div class="tl-tags"><button type="button" class="tl-tag" data-topic="datos-abiertos">Datos abiertos</button><button type="button" class="tl-tag" data-topic="gestion-publica">Gestión pública</button></div>
+<div class="tl-tags"><button type="button" class="kw kw--datos" data-topic="datos-abiertos">Datos abiertos</button><button type="button" class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Presente y futuro de los datos abiertos: análisis y reflexión del caso peruano</h3>
 <div class="tl-meta"><span class="tl-pub">Fénix — Revista de la Biblioteca Nacional del Perú (2020)</span></div>
@@ -109,7 +107,7 @@ presentaciones académicas aparecen al final de la página.
 </div>
 <div class="tl-item" data-topics="empleabilidad innovacion gestion-publica">
 <div class="tl-year">2020</div>
-<div class="tl-tags"><button type="button" class="tl-tag" data-topic="empleabilidad">Empleabilidad</button><button type="button" class="tl-tag" data-topic="innovacion">Innovación</button><button type="button" class="tl-tag" data-topic="gestion-publica">Gestión pública</button></div>
+<div class="tl-tags"><button type="button" class="kw kw--empleo" data-topic="empleabilidad">Empleabilidad</button><button type="button" class="kw kw--innovacion" data-topic="innovacion">Innovación</button><button type="button" class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Bosquejo de un bono de impacto social modificado con miras a enfrentar el problema de la empleabilidad juvenil</h3>
 <div class="tl-meta"><span class="tl-pub">Gestión en el Tercer Milenio · UNMSM (2020)</span></div>
@@ -158,7 +156,7 @@ presentaciones académicas aparecen al final de la página.
 <script>
 (function () {
   var search = document.getElementById('research-search');
-  var chips = document.querySelectorAll('.topic-chip');
+  var chips = document.querySelectorAll('#research-controls .kw-chip');
   var items = document.querySelectorAll('#investigaciones .tl-item');
   var countEl = document.getElementById('research-count');
   var emptyEl = document.getElementById('research-empty');
@@ -201,7 +199,8 @@ presentaciones académicas aparecen al final de la página.
     })(chips[i]);
   }
 
-  document.querySelectorAll('#investigaciones .tl-tag').forEach(function (tag) {
+  document.querySelectorAll('#investigaciones .tl-tags .kw').forEach(function (tag) {
+    tag.style.cursor = 'pointer';
     tag.addEventListener('click', function () {
       filterByTopic(tag.getAttribute('data-topic'));
       var anchor = document.getElementById('research-controls');
@@ -213,8 +212,15 @@ presentaciones académicas aparecen al final de la página.
   document.querySelectorAll('#investigaciones .tl-year').forEach(function (year) {
     year.setAttribute('role', 'button');
     year.setAttribute('tabindex', '0');
-    year.setAttribute('title', 'Mostrar u ocultar los detalles');
-    function toggle() { year.closest('.tl-item').classList.toggle('collapsed'); }
+    year.setAttribute('title', 'Mostrar u ocultar los artículos de este año');
+    function toggle() {
+      var y = year.textContent.trim();
+      var willCollapse = !year.closest('.tl-item').classList.contains('collapsed');
+      items.forEach(function (it) {
+        var iy = it.querySelector('.tl-year');
+        if (iy && iy.textContent.trim() === y) it.classList.toggle('collapsed', willCollapse);
+      });
+    }
     year.addEventListener('click', toggle);
     year.addEventListener('keydown', function (e) {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }

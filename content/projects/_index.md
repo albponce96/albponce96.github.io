@@ -4,8 +4,6 @@ url: "/projects/"
 summary: "Proyectos en curso"
 ---
 
-## Proyectos en curso
-
 Actualmente participo en iniciativas de planificación estratégica, monitoreo y
 sostenibilidad en el marco de mi rol como Coordinador de Planificación en CEDEP.
 

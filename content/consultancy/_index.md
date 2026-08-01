@@ -4,8 +4,6 @@ url: "/consultancy/"
 summary: "Experiencia en consultoría"
 ---
 
-## Experiencia en consultoría
-
 He desarrollado consultorías especializadas en mecanismos financieros para la
 conservación, valoración económica de servicios ecosistémicos, sistemas de
 monitoreo (MRV) e investigación de mercados. Usa el **buscador** o filtra por
