@@ -378,3 +378,123 @@ header .logo {
     .tl-title { font-size: 1rem; }
     .tl-card { padding: 0.8rem 0.9rem; }
 }
+
+/* --- Buscador y filtros temáticos --- */
+.research-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1.2rem 0 0.4rem;
+}
+#research-search {
+    width: 100%;
+    padding: 9px 14px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--entry);
+    color: var(--content);
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+#research-search::placeholder { color: var(--secondary); opacity: 0.8; }
+#research-search:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(13, 122, 110, 0.15);
+}
+.research-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.topic-chip {
+    cursor: pointer;
+    font-family: inherit;
+    border: 1px solid var(--border);
+    background: var(--entry);
+    color: var(--secondary);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all 0.15s ease;
+}
+.topic-chip:hover { border-color: var(--accent); color: var(--accent); }
+.topic-chip.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #ffffff;
+}
+.research-count {
+    font-size: 0.82rem;
+    color: var(--secondary);
+    margin: 0.3rem 0 1rem;
+}
+
+/* Badges temáticos dentro de cada investigación (junto al año) */
+.tl-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0 0 8px;
+}
+.tl-tag {
+    cursor: pointer;
+    font-family: inherit;
+    background: var(--tertiary);
+    color: var(--primary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 2px 9px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    transition: all 0.15s ease;
+}
+.tl-tag:hover {
+    background: var(--accent);
+    color: #ffffff;
+    border-color: var(--accent);
+}
+.research-empty {
+    text-align: center;
+    color: var(--secondary);
+    font-style: italic;
+    padding: 1.2rem;
+}
+
+/* --- Caja de presentaciones (complemento) --- */
+.presentations-box {
+    margin-top: 2.2rem;
+    background: var(--tertiary);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1rem 1.3rem 1.3rem;
+}
+.presentations-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.18rem;
+    color: var(--primary);
+    font-weight: 700;
+    margin: 0.3rem 0 0.2rem;
+}
+.complemento {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--accent);
+    color: #ffffff;
+    padding: 2px 9px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+.presentations-note {
+    font-size: 0.86rem;
+    color: var(--secondary);
+    margin: 0 0 0.6rem;
+}
+.presentations-box .timeline { margin: 0.6rem 0 0; }
+.presentations-box .tl-card { background: var(--entry); }
