@@ -34,3 +34,22 @@ laboratorios de innovación pública en Perú.
 <div class="cons-tags"><span class="kw kw--sostenibilidad" style="cursor:default">Acción climática</span></div>
 </div>
 </div>
+
+<div class="presentations-box">
+<div class="presentations-head">🏅 Formación y prácticas destacadas</div>
+<div class="talks-grid">
+<div class="talk-card">
+<span class="talk-year">2022</span>
+<h3 class="talk-title">Curso de Extensión Universitaria en Fiscalización Ambiental (CEU 2022)</h3>
+<p class="talk-pub">Organismo de Evaluación y Fiscalización Ambiental (OEFA) · ene – feb 2022</p>
+<p class="talk-syn">Especialización en el rol y las funciones del OEFA y en las herramientas de evaluación ambiental, supervisión, fiscalización y sanción. Obtuvo uno de los primeros puestos —Top 4— en la especialidad de Economía.</p>
+<div class="cons-tags"><span class="kw kw--finanzas" style="cursor:default">🏅 Top 4 nacional · Economía</span></div>
+</div>
+<div class="talk-card">
+<span class="talk-year">2022</span>
+<h3 class="talk-title">Banco Central de Reserva del Perú — Sucursal Huancayo</h3>
+<p class="talk-pub">Practicante</p>
+<p class="talk-syn">Apoyo en la elaboración y actualización de indicadores y de la síntesis económica de las regiones Ica, Ayacucho y Junín.</p>
+</div>
+</div>
+</div>
