@@ -270,3 +270,111 @@ header .logo {
     background: var(--primary);
     background-color: var(--primary);
 }
+
+/* ==========================================================================
+   RESEARCH — Línea de tiempo (timeline)
+   ========================================================================== */
+.timeline {
+    position: relative;
+    margin: 1.5rem 0 2rem;
+    padding-left: 30px;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: var(--border);
+}
+.tl-item {
+    position: relative;
+    margin-bottom: 1.6rem;
+}
+.tl-item::before {
+    content: "";
+    position: absolute;
+    left: -29px;
+    top: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 3px solid var(--theme);
+    box-shadow: 0 0 0 1px var(--accent);
+}
+.tl-year {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 1.05rem;
+    margin-bottom: 5px;
+}
+.tl-card {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.9rem 1.1rem 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.tl-title {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--primary);
+    font-size: 1.06rem;
+    line-height: 1.35;
+    margin: 0 0 0.5rem;
+}
+.tl-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+}
+.tl-pub {
+    color: var(--secondary);
+    font-style: italic;
+}
+.tl-fund {
+    background: var(--tertiary);
+    color: var(--primary);
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 0.76rem;
+    font-weight: 600;
+    font-style: normal;
+    white-space: nowrap;
+}
+.tl-syn {
+    margin: 0.2rem 0 0.5rem;
+    font-size: 0.94rem;
+}
+.tl-bullets {
+    margin: 0.3rem 0 0.7rem;
+    padding-left: 18px;
+}
+.tl-bullets li {
+    margin: 2px 0;
+    font-size: 0.9rem;
+}
+.post-content a.tl-link {
+    display: inline-block;
+    background: var(--accent);
+    color: #ffffff;
+    padding: 5px 13px;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    box-shadow: none;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.post-content a.tl-link:hover {
+    background: var(--primary);
+}
+@media (max-width: 600px) {
+    .tl-title { font-size: 1rem; }
+    .tl-card { padding: 0.8rem 0.9rem; }
+}
