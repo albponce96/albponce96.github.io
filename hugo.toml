@@ -12,7 +12,7 @@ enableInlineShortcodes = true
 enableRobotsTXT = true
 
 [params]
-  description = "Albert Moises Ponce Villegas — Consultor en Sostenibilidad y especialista en Monitoreo, Evaluación y Aprendizaje (MEL)."
+  description = "Albert Ponce Villegas — Especialista en Sostenibilidad y Monitoreo, Evaluación y Aprendizaje (MEL)."
   author = "Albert Ponce Villegas"
 
   defaultTheme = "auto"
@@ -27,27 +27,27 @@ enableRobotsTXT = true
   # Perfil en la home (modo landing page)
   [params.profileMode]
     enabled = true
-    title = "Albert Moises Ponce Villegas"
-    subtitle = "Consultor en Sostenibilidad · Monitoreo, Evaluación y Aprendizaje (MEL)<br>Lima, Perú"
+    title = "Albert Ponce Villegas"
+    subtitle = '''<span class="home-role">Especialista en Sostenibilidad y Monitoreo, Evaluación y Aprendizaje (MEL)</span><span class="home-desc">Economista con más de 6 años de experiencia en planificación estratégica, análisis socioeconómico y sistemas de monitoreo (MRV) para proyectos de sostenibilidad y adaptación climática.</span><span class="home-stats"><span class="stat"><b>8</b><small>Publicaciones</small></span><span class="stat"><b>4</b><small>Presentaciones</small></span><span class="stat"><b>4</b><small>Consultorías</small></span><span class="stat"><b>4</b><small>Docencia</small></span><span class="stat"><b>2</b><small>Proyectos</small></span></span>'''
     imageUrl = "/images/profile.jpg"
     imageWidth = 150
     imageHeight = 150
     imageTitle = "Albert Ponce Villegas"
 
     [[params.profileMode.buttons]]
-      name = "About me"
+      name = "👤 About me"
       url = "about"
     [[params.profileMode.buttons]]
-      name = "Research"
+      name = "📚 Research"
       url = "research"
     [[params.profileMode.buttons]]
-      name = "Consultancy"
+      name = "💼 Consultancy"
       url = "consultancy"
     [[params.profileMode.buttons]]
-      name = "Teaching"
+      name = "🎓 Teaching"
       url = "teaching"
     [[params.profileMode.buttons]]
-      name = "Projects"
+      name = "🚀 Projects"
       url = "projects"
 
   # Enlaces sociales (aparecen bajo el perfil)
@@ -55,6 +55,10 @@ enableRobotsTXT = true
     name = "email"
     title = "Correo electrónico"
     url = "mailto:alb.ponce96@gmail.com"
+  [[params.socialIcons]]
+    name = "linkedin"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/albert-ponce-villegas-a3966168/"
   [[params.socialIcons]]
     name = "googlescholar"
     title = "Google Scholar"
@@ -65,33 +69,38 @@ enableRobotsTXT = true
     url = "https://albponce.medium.com"
   [[params.socialIcons]]
     name = "cv"
-    title = "Descargar CV (PDF)"
+    title = "Conoce mi CV (PDF)"
     url = "/cv.pdf"
 
-# Menú de navegación superior
+# Menú de navegación superior (con íconos)
 [menu]
   [[menu.main]]
     identifier = "about"
+    pre = "👤 "
     name = "About"
     url = "/about/"
     weight = 10
   [[menu.main]]
     identifier = "research"
+    pre = "📚 "
     name = "Research"
     url = "/research/"
     weight = 20
   [[menu.main]]
     identifier = "consultancy"
+    pre = "💼 "
     name = "Consultancy"
     url = "/consultancy/"
     weight = 30
   [[menu.main]]
     identifier = "teaching"
+    pre = "🎓 "
     name = "Teaching"
     url = "/teaching/"
     weight = 40
   [[menu.main]]
     identifier = "projects"
+    pre = "🚀 "
     name = "Projects"
     url = "/projects/"
     weight = 50

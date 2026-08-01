@@ -25,8 +25,10 @@ de Estudios para el Desarrollo y la Participación).
 
 ### Enlaces
 
-- 📄 [Descargar mi CV (PDF)](/cv.pdf)
+<a class="cv-button" href="/cv.pdf" target="_blank" rel="noopener">📄 Conoce mi CV</a>
+
 - 🎓 [Google Scholar](https://scholar.google.com/citations?user=l4y-ybsAAAAJ&hl=es)
+- 💼 [LinkedIn](https://www.linkedin.com/in/albert-ponce-villegas-a3966168/)
 - ✍️ [Mis artículos en Medium](https://albponce.medium.com)
 - ✉️ [alb.ponce96@gmail.com](mailto:alb.ponce96@gmail.com)
 
