@@ -498,3 +498,58 @@ header .logo {
 }
 .presentations-box .timeline { margin: 0.6rem 0 0; }
 .presentations-box .tl-card { background: var(--entry); }
+
+/* Grid de tarjetas para presentaciones */
+.talks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 14px;
+    margin-top: 0.9rem;
+}
+.talk-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.05rem 1.05rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.talk-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+.talk-year {
+    align-self: flex-start;
+    background: var(--accent);
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 2px 11px;
+    border-radius: 20px;
+    margin-bottom: 0.6rem;
+}
+.talk-title {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--primary);
+    font-size: 1rem;
+    line-height: 1.32;
+    margin: 0 0 0.4rem;
+}
+.talk-pub {
+    color: var(--secondary);
+    font-style: italic;
+    font-size: 0.82rem;
+    margin: 0 0 0.5rem;
+}
+.talk-syn {
+    font-size: 0.88rem;
+    margin: 0 0 0.8rem;
+    flex-grow: 1;
+}
+.talk-card .tl-link {
+    align-self: flex-start;
+    margin-top: auto;
+}

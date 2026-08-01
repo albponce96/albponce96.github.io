@@ -9,7 +9,7 @@ summary: "Investigación, publicaciones y presentaciones académicas"
 Mi producción académica se centra en investigaciones sobre sostenibilidad,
 gestión pública, turismo y economía del comportamiento, publicadas en revistas
 indexadas. Usa el **buscador** o filtra por **temática** para explorarlas. Las
-presentaciones académicas aparecen al final como complemento.
+presentaciones académicas aparecen al final de la página.
 
 <div class="research-controls" id="research-controls">
 <input id="research-search" type="search" placeholder="🔍 Buscar por título, tema o publicación…" autocomplete="off" aria-label="Buscar investigaciones">
@@ -123,44 +123,34 @@ presentaciones académicas aparecen al final como complemento.
 <p class="research-empty" id="research-empty" hidden>No se encontraron investigaciones con esos criterios. <a href="#" id="research-reset">Ver todas →</a></p>
 
 <div class="presentations-box">
-<div class="presentations-head">🎤 Presentaciones académicas <span class="complemento">Complemento</span></div>
+<div class="presentations-head">🎤 Presentaciones académicas</div>
 <p class="presentations-note">Ponencias y participaciones en congresos y encuentros especializados.</p>
-<div class="timeline timeline--talks">
-<div class="tl-item">
-<div class="tl-year">2024</div>
-<div class="tl-card">
-<h3 class="tl-title">Panorama social de las iniciativas de Soluciones basadas en la Naturaleza (SbN)</h3>
-<div class="tl-meta"><span class="tl-pub">Simposio «Las Montañas, Nuestro Futuro» (MONFU) · 2024</span></div>
-<p class="tl-syn">Estudio piloto que propone evaluar los impactos sociales de las SbN mediante un enfoque de Conocimientos, Actitudes y Prácticas (CAP) en los ecosistemas de montaña de la microcuenca Carhuayumac.</p>
-<ul class="tl-bullets"><li>Complementa la evaluación hidrológica con la dimensión social.</li><li>Fortalece la gestión sostenible del agua y la gobernanza en ecosistemas de montaña.</li></ul>
+<div class="talks-grid">
+<div class="talk-card">
+<span class="talk-year">2024</span>
+<h3 class="talk-title">Panorama social de las iniciativas de Soluciones basadas en la Naturaleza (SbN)</h3>
+<p class="talk-pub">Simposio «Las Montañas, Nuestro Futuro» (MONFU)</p>
+<p class="talk-syn">Estudio piloto que evalúa los impactos sociales de las SbN mediante un enfoque de Conocimientos, Actitudes y Prácticas (CAP) en los ecosistemas de montaña de la microcuenca Carhuayumac, complementando la evaluación hidrológica para fortalecer la gobernanza del agua.</p>
 <a class="tl-link" href="https://repositorio.inaigem.gob.pe/server/api/core/bitstreams/aebc6d37-a233-4cab-8799-6a473bad902f/content" target="_blank" rel="noopener">Ver más →</a>
 </div>
-</div>
-<div class="tl-item">
-<div class="tl-year">2023</div>
-<div class="tl-card">
-<h3 class="tl-title">II Encuentro Regional de Fondos de Agua</h3>
-<div class="tl-meta"><span class="tl-pub">Fundación Futuro Latinoamericano (FFLA) · 2023</span></div>
-<p class="tl-syn">Espacio regional que reunió a fondos de agua de Perú, Colombia y Ecuador para intercambiar experiencias y fortalecer estrategias colaborativas de gestión sostenible de los recursos hídricos en la región andina.</p>
+<div class="talk-card">
+<span class="talk-year">2023</span>
+<h3 class="talk-title">II Encuentro Regional de Fondos de Agua</h3>
+<p class="talk-pub">Fundación Futuro Latinoamericano (FFLA)</p>
+<p class="talk-syn">Espacio regional que reunió a fondos de agua de Perú, Colombia y Ecuador para intercambiar experiencias y fortalecer estrategias colaborativas de gestión sostenible de los recursos hídricos en la región andina.</p>
 <a class="tl-link" href="https://www.ffla.net/es/taller-anual-pafa/" target="_blank" rel="noopener">Ver más →</a>
 </div>
+<div class="talk-card">
+<span class="talk-year">2022</span>
+<h3 class="talk-title">Laboratorios de innovación en el sector público</h3>
+<p class="talk-pub">Congreso CABER 2022 · PUCP</p>
+<p class="talk-syn">Investigación sobre la viabilidad de los laboratorios de innovación en el sector público peruano, con énfasis en el sector turismo, identificando factores organizacionales, políticos y de liderazgo favorables a su implementación.</p>
 </div>
-<div class="tl-item">
-<div class="tl-year">2022</div>
-<div class="tl-card">
-<h3 class="tl-title">Laboratorios de innovación en el sector público</h3>
-<div class="tl-meta"><span class="tl-pub">Congreso CABER 2022 · PUCP</span></div>
-<p class="tl-syn">Investigación sobre la viabilidad de los laboratorios de innovación en el sector público peruano, con énfasis en el sector turismo.</p>
-<ul class="tl-bullets"><li>Identifica factores organizacionales, políticos y de liderazgo favorables a su implementación.</li></ul>
-</div>
-</div>
-<div class="tl-item">
-<div class="tl-year">2021</div>
-<div class="tl-card">
-<h3 class="tl-title">Redacción de artículos científicos para publicación en revistas indexadas</h3>
-<div class="tl-meta"><span class="tl-pub">Congreso Peruano de Turismo (CONPETUR)</span></div>
-<p class="tl-syn">Ponencia orientada a compartir metodologías, herramientas y buenas prácticas para la elaboración y publicación de investigaciones científicas en revistas académicas indexadas.</p>
-</div>
+<div class="talk-card">
+<span class="talk-year">2021</span>
+<h3 class="talk-title">Redacción de artículos científicos para publicación en revistas indexadas</h3>
+<p class="talk-pub">Congreso Peruano de Turismo (CONPETUR)</p>
+<p class="talk-syn">Ponencia orientada a compartir metodologías, herramientas y buenas prácticas para la elaboración y publicación de investigaciones científicas en revistas académicas indexadas.</p>
 </div>
 </div>
 </div>

@@ -18,7 +18,7 @@ internacionales. Tengo experiencia estructurando sistemas de **Monitoreo,
 Reporte y Verificación (MRV)**, institucionalizando salvaguardas ambientales y
 sociales, y aplicando metodologías cuantitativas y cualitativas.
 
-Complemento mi perfil técnico con experiencia en investigación aplicada,
+A mi perfil técnico sumo experiencia en investigación aplicada,
 docencia y publicaciones académicas en gestión pública y sostenibilidad.
 Actualmente me desempeño como **Coordinador de Planificación en CEDEP** (Centro
 de Estudios para el Desarrollo y la Participación).
