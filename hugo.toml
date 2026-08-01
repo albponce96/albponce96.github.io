@@ -54,7 +54,7 @@ enableRobotsTXT = true
   [[params.socialIcons]]
     name = "email"
     title = "Correo electrónico"
-    url = "mailto:aponce@cedepperu.org"
+    url = "mailto:alb.ponce96@gmail.com"
   [[params.socialIcons]]
     name = "googlescholar"
     title = "Google Scholar"

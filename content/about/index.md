@@ -28,7 +28,7 @@ de Estudios para el Desarrollo y la Participación).
 - 📄 [Descargar mi CV (PDF)](/cv.pdf)
 - 🎓 [Google Scholar](https://scholar.google.com/citations?user=l4y-ybsAAAAJ&hl=es)
 - ✍️ [Mis artículos en Medium](https://albponce.medium.com)
-- ✉️ [aponce@cedepperu.org](mailto:aponce@cedepperu.org)
+- ✉️ [alb.ponce96@gmail.com](mailto:alb.ponce96@gmail.com)
 
 ### Formación
 
