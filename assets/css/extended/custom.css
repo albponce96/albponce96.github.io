@@ -207,6 +207,15 @@ header .logo {
     color: #cfe6e0;
     margin-top: 4px;
 }
+.home-stats .stat em {
+    font-style: normal;
+    font-size: 0.6rem;
+    color: #a9cec6;
+    margin-top: 3px;
+    max-width: 13ch;
+    line-height: 1.25;
+    text-align: center;
+}
 
 /* Íconos sociales en blanco sobre la portada */
 .profile .profile_inner a svg {

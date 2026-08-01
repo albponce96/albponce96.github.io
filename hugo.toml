@@ -28,7 +28,7 @@ enableRobotsTXT = true
   [params.profileMode]
     enabled = true
     title = "Albert Ponce Villegas"
-    subtitle = '''<span class="home-role">Especialista en Sostenibilidad y Monitoreo, Evaluación y Aprendizaje (MEL)</span><span class="home-desc">Economista con más de 6 años de experiencia en planificación estratégica, análisis socioeconómico y sistemas de monitoreo (MRV) para proyectos de sostenibilidad y adaptación climática.</span><span class="home-stats"><span class="stat"><b>8</b><small>Publicaciones</small></span><span class="stat"><b>4</b><small>Presentaciones</small></span><span class="stat"><b>4</b><small>Consultorías</small></span><span class="stat"><b>4</b><small>Docencia</small></span><span class="stat"><b>2</b><small>Proyectos</small></span></span>'''
+    subtitle = '''<span class="home-role">Especialista en Sostenibilidad y Monitoreo, Evaluación y Aprendizaje (MEL)</span><span class="home-desc">Economista con más de 6 años de experiencia en planificación estratégica, análisis socioeconómico y sistemas de monitoreo (MRV) para proyectos de sostenibilidad y adaptación climática.</span><span class="home-stats"><span class="stat"><b>8</b><small>Publicaciones</small><em>USD 5,000 movilizados</em></span><span class="stat"><b>4</b><small>Presentaciones</small><em>2021–2024 · nacional</em></span><span class="stat"><b>4</b><small>Consultorías</small><em>5 áreas protegidas</em></span><span class="stat"><b>4</b><small>Docencia</small><em>2020–2026</em></span><span class="stat"><b>18</b><small>Divulgación</small><em>artículos en Medium</em></span></span>'''
     imageUrl = "/images/profile.jpg"
     imageWidth = 150
     imageHeight = 150
