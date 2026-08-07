@@ -30,13 +30,13 @@ monitoreo (MRV) e investigación de mercados.
 <div class="cons-card" data-kw="mecanismos-financieros merese conservacion areas-protegidas">
 <div class="cons-head"><span class="cons-org">Profonanpe</span><span class="cons-date">jul – set 2026</span></div>
 <div class="cons-role">Consultor de Proyecto</div>
-<p class="cons-desc">Desarrollo de una hoja de ruta para la implementación de Mecanismos de Retribución por Servicios Ecosistémicos en las ACR Champará-Coyllorccocha (Áncash) y Selva Verde-Santo Domingo (Puno).</p>
+<p class="cons-desc"><strong>Diseño de mecanismos financieros para Áreas de Conservación Regional.</strong> Desarrollo de una hoja de ruta para la implementación de Mecanismos de Retribución por Servicios Ecosistémicos en las ACR Champará-Coyllorccocha (Áncash) y Selva Verde-Santo Domingo (Puno).</p>
 <div class="cons-tags"><span class="kw kw--fin" data-kw="mecanismos-financieros">Mecanismos financieros</span><span class="kw kw--merese" data-kw="merese">MERESE</span><span class="kw kw--cons" data-kw="conservacion">Conservación</span><span class="kw kw--areas" data-kw="areas-protegidas">Áreas protegidas</span></div>
 </div>
 <div class="cons-card" data-kw="merese valoracion-economica mrv conservacion">
 <div class="cons-head"><span class="cons-org">Pronaturaleza</span><span class="cons-date">dic 2025 – may 2026</span></div>
 <div class="cons-role">Consultor de Proyecto</div>
-<p class="cons-desc">Lideré el diagnóstico socioeconómico, la valoración económica y la estrategia de financiamiento de servicios ecosistémicos; diseñé el modelo de gobernanza y formulé el sistema de Monitoreo, Reporte y Verificación (MRV), con su teoría de cambio y matriz de indicadores.</p>
+<p class="cons-desc"><strong>Estructuración de un MERESE, ACR Chuyapi Urusayhua (Cusco).</strong> Lideré el diagnóstico socioeconómico, la valoración económica y la estrategia de financiamiento de servicios ecosistémicos; diseñé el modelo de gobernanza y formulé el sistema de Monitoreo, Reporte y Verificación (MRV), con su teoría de cambio y matriz de indicadores.</p>
 <div class="cons-tags"><span class="kw kw--merese" data-kw="merese">MERESE</span><span class="kw kw--val" data-kw="valoracion-economica">Valoración económica</span><span class="kw kw--mrv" data-kw="mrv">MRV</span><span class="kw kw--cons" data-kw="conservacion">Conservación</span></div>
 </div>
 <div class="cons-card" data-kw="investigacion-mercados estrategia">

@@ -117,40 +117,40 @@ indexadas.
 </div></div>
 </div>
 
-<p class="research-empty" id="research-empty" hidden>No se encontraron investigaciones con esos criterios. <a href="#" id="research-reset">Ver todas →</a></p>
+<p class="research-empty" id="research-empty" hidden>No se encontraron resultados con esos criterios. <a href="#" id="research-reset">Ver todos →</a></p>
 
 <div class="presentations-box">
 <div class="presentations-head">🎤 Presentaciones académicas</div>
 <p class="presentations-note">Ponencias y participaciones en congresos y encuentros especializados.</p>
 <div class="talks-grid">
-<div class="talk-card">
+<div class="talk-card" data-topics="sostenibilidad recursos-hidricos">
 <span class="talk-year">2024</span>
 <h3 class="talk-title">Panorama social de las iniciativas de Soluciones basadas en la Naturaleza (SbN)</h3>
 <p class="talk-pub">Simposio «Las Montañas, Nuestro Futuro» (MONFU)</p>
-<div class="cons-tags"><span class="kw kw--sostenibilidad" style="cursor:default">Sostenibilidad</span><span class="kw kw--hidricos" style="cursor:default">Recursos hídricos</span></div>
+<div class="cons-tags"><span class="kw kw--sostenibilidad" data-topic="sostenibilidad">Sostenibilidad</span><span class="kw kw--hidricos" data-topic="recursos-hidricos">Recursos hídricos</span></div>
 <p class="talk-syn">Estudio piloto que evalúa los impactos sociales de las Soluciones basadas en la Naturaleza (SbN) mediante un enfoque CAP en los ecosistemas de montaña de la microcuenca Carhuayumac.</p>
 <a class="tl-link" href="https://repositorio.inaigem.gob.pe/server/api/core/bitstreams/aebc6d37-a233-4cab-8799-6a473bad902f/content" target="_blank" rel="noopener">Ver más →</a>
 </div>
-<div class="talk-card">
+<div class="talk-card" data-topics="recursos-hidricos sostenibilidad">
 <span class="talk-year">2023</span>
 <h3 class="talk-title">II Encuentro Regional de Fondos de Agua</h3>
 <p class="talk-pub">Fundación Futuro Latinoamericano (FFLA)</p>
-<div class="cons-tags"><span class="kw kw--hidricos" style="cursor:default">Recursos hídricos</span><span class="kw kw--sostenibilidad" style="cursor:default">Sostenibilidad</span></div>
+<div class="cons-tags"><span class="kw kw--hidricos" data-topic="recursos-hidricos">Recursos hídricos</span><span class="kw kw--sostenibilidad" data-topic="sostenibilidad">Sostenibilidad</span></div>
 <p class="talk-syn">Espacio regional que reunió a fondos de agua de Perú, Colombia y Ecuador para intercambiar experiencias y fortalecer la gestión sostenible de los recursos hídricos andinos.</p>
 <a class="tl-link" href="https://www.ffla.net/es/taller-anual-pafa/" target="_blank" rel="noopener">Ver más →</a>
 </div>
-<div class="talk-card">
+<div class="talk-card" data-topics="innovacion gestion-publica">
 <span class="talk-year">2022</span>
 <h3 class="talk-title">Laboratorios de innovación en el sector público</h3>
 <p class="talk-pub">Congreso CABER 2022 · PUCP</p>
-<div class="cons-tags"><span class="kw kw--innovacion" style="cursor:default">Innovación</span><span class="kw kw--gestion" style="cursor:default">Gestión pública</span></div>
+<div class="cons-tags"><span class="kw kw--innovacion" data-topic="innovacion">Innovación</span><span class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</span></div>
 <p class="talk-syn">Investigación sobre la viabilidad de los laboratorios de innovación en el sector público peruano, identificando factores organizacionales, políticos y de liderazgo, con énfasis en turismo.</p>
 </div>
-<div class="talk-card">
+<div class="talk-card" data-topics="turismo">
 <span class="talk-year">2021</span>
 <h3 class="talk-title">Redacción de artículos científicos para publicación en revistas indexadas</h3>
 <p class="talk-pub">Congreso Peruano de Turismo (CONPETUR)</p>
-<div class="cons-tags"><span class="kw kw--turismo" style="cursor:default">Turismo</span></div>
+<div class="cons-tags"><span class="kw kw--turismo" data-topic="turismo">Turismo</span></div>
 <p class="talk-syn">Ponencia sobre metodologías, herramientas y buenas prácticas para la elaboración y publicación de investigaciones científicas en revistas académicas indexadas.</p>
 </div>
 </div>
@@ -159,11 +159,11 @@ indexadas.
 <div class="presentations-box">
 <div class="presentations-head">📋 Comité revisor</div>
 <div class="talks-grid">
-<div class="talk-card">
+<div class="talk-card" data-topics="gestion-publica">
 <span class="talk-year">2023</span>
 <h3 class="talk-title">RAN - Revista de Academia &amp; Negocios</h3>
 <p class="talk-pub">Universidad de Concepción, Chile</p>
-<div class="cons-tags"><span class="kw kw--gestion" style="cursor:default">Gestión pública</span></div>
+<div class="cons-tags"><span class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</span></div>
 <p class="talk-syn">Miembro del comité revisor · Vol. 9, Núm. 1 (2023).</p>
 </div>
 </div>
@@ -175,10 +175,12 @@ indexadas.
   var chips = document.querySelectorAll('#research-controls .kw-chip');
   var items = document.querySelectorAll('#investigaciones .tl-item');
   var groups = document.querySelectorAll('#investigaciones .tl-yeargroup');
+  var talkCards = document.querySelectorAll('.presentations-box .talk-card');
+  var boxes = document.querySelectorAll('.presentations-box');
   var countEl = document.getElementById('research-count');
   var emptyEl = document.getElementById('research-empty');
   var resetLink = document.getElementById('research-reset');
-  var total = items.length;
+  var total = items.length + talkCards.length;
   var activeTopic = 'all';
 
   function setActiveChip(topic) {
@@ -187,14 +189,18 @@ indexadas.
     }
   }
 
-  function apply() {
+  function matches(el) {
     var q = (search && search.value ? search.value : '').trim().toLowerCase();
+    var topics = (el.getAttribute('data-topics') || '').split(' ');
+    var okTopic = activeTopic === 'all' || topics.indexOf(activeTopic) !== -1;
+    var okText = !q || el.textContent.toLowerCase().indexOf(q) !== -1;
+    return okTopic && okText;
+  }
+
+  function apply() {
     var visible = 0;
     items.forEach(function (it) {
-      var topics = (it.getAttribute('data-topics') || '').split(' ');
-      var okTopic = activeTopic === 'all' || topics.indexOf(activeTopic) !== -1;
-      var okText = !q || it.textContent.toLowerCase().indexOf(q) !== -1;
-      var show = okTopic && okText;
+      var show = matches(it);
       it.style.display = show ? '' : 'none';
       if (show) visible++;
     });
@@ -202,9 +208,18 @@ indexadas.
       var any = Array.prototype.some.call(g.querySelectorAll('.tl-item'), function (it) { return it.style.display !== 'none'; });
       g.style.display = any ? '' : 'none';
     });
+    talkCards.forEach(function (c) {
+      var show = matches(c);
+      c.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    boxes.forEach(function (b) {
+      var any = Array.prototype.some.call(b.querySelectorAll('.talk-card'), function (c) { return c.style.display !== 'none'; });
+      b.style.display = any ? '' : 'none';
+    });
     countEl.textContent = (visible === total)
-      ? total + ' investigaciones'
-      : visible + ' de ' + total + ' investigaciones';
+      ? total + ' resultados'
+      : visible + ' de ' + total + ' resultados';
     emptyEl.hidden = visible !== 0;
   }
 
@@ -220,7 +235,8 @@ indexadas.
     })(chips[i]);
   }
 
-  document.querySelectorAll('#investigaciones .tl-tags .kw').forEach(function (tag) {
+  document.querySelectorAll('#investigaciones .tl-tags .kw, .presentations-box .cons-tags .kw').forEach(function (tag) {
+    if (!tag.getAttribute('data-topic')) return;
     tag.style.cursor = 'pointer';
     tag.addEventListener('click', function () {
       filterByTopic(tag.getAttribute('data-topic'));
