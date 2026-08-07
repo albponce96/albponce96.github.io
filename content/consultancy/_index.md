@@ -6,8 +6,7 @@ summary: "Experiencia en consultoría"
 
 He desarrollado consultorías especializadas en mecanismos financieros para la
 conservación, valoración económica de servicios ecosistémicos, sistemas de
-monitoreo (MRV) e investigación de mercados. Usa el **buscador** o filtra por
-**palabra clave** para explorarlas.
+monitoreo (MRV) e investigación de mercados.
 
 <div class="research-controls" id="consultancy-controls">
 <input id="consultancy-search" type="search" placeholder="🔍 Buscar por institución, rol o tema…" autocomplete="off" aria-label="Buscar consultorías">
@@ -31,25 +30,25 @@ monitoreo (MRV) e investigación de mercados. Usa el **buscador** o filtra por
 <div class="cons-card" data-kw="mecanismos-financieros merese conservacion areas-protegidas">
 <div class="cons-head"><span class="cons-org">Profonanpe</span><span class="cons-date">jul – set 2026</span></div>
 <div class="cons-role">Consultor de Proyecto</div>
-<p class="cons-desc"><strong>Diseño de mecanismos financieros para Áreas de Conservación Regional.</strong> Revisó y sistematizó expedientes técnicos, planes estratégicos y marco normativo, y desarrolló la hoja de ruta para implementar MERESE hídrico y créditos de carbono forestales en las ACR Champará-Coyllorccocha (Áncash) y Selva Verde-Santo Domingo (Puno).</p>
+<p class="cons-desc">Desarrollo de una hoja de ruta para la implementación de Mecanismos de Retribución por Servicios Ecosistémicos en las ACR Champará-Coyllorccocha (Áncash) y Selva Verde-Santo Domingo (Puno).</p>
 <div class="cons-tags"><span class="kw kw--fin" data-kw="mecanismos-financieros">Mecanismos financieros</span><span class="kw kw--merese" data-kw="merese">MERESE</span><span class="kw kw--cons" data-kw="conservacion">Conservación</span><span class="kw kw--areas" data-kw="areas-protegidas">Áreas protegidas</span></div>
 </div>
 <div class="cons-card" data-kw="merese valoracion-economica mrv conservacion">
 <div class="cons-head"><span class="cons-org">Pronaturaleza</span><span class="cons-date">dic 2025 – may 2026</span></div>
 <div class="cons-role">Consultor de Proyecto</div>
-<p class="cons-desc"><strong>Estructuración de un MERESE en la ACR Chuyapi Urusayhua (Cusco).</strong> Lideró el diagnóstico socioeconómico, la valoración económica y la estrategia de financiamiento de servicios ecosistémicos; diseñó el modelo de gobernanza y formuló el sistema de Monitoreo, Reporte y Verificación (MRV), con su teoría de cambio y matriz de indicadores.</p>
+<p class="cons-desc">Lideré el diagnóstico socioeconómico, la valoración económica y la estrategia de financiamiento de servicios ecosistémicos; diseñé el modelo de gobernanza y formulé el sistema de Monitoreo, Reporte y Verificación (MRV), con su teoría de cambio y matriz de indicadores.</p>
 <div class="cons-tags"><span class="kw kw--merese" data-kw="merese">MERESE</span><span class="kw kw--val" data-kw="valoracion-economica">Valoración económica</span><span class="kw kw--mrv" data-kw="mrv">MRV</span><span class="kw kw--cons" data-kw="conservacion">Conservación</span></div>
 </div>
 <div class="cons-card" data-kw="investigacion-mercados estrategia">
 <div class="cons-head"><span class="cons-org">Advantage LATAM Insights</span><span class="cons-date">oct – dic 2025</span></div>
 <div class="cons-role">Consultor en Investigación de Mercados</div>
-<p class="cons-desc">Elaboró recomendaciones estratégicas para una agencia gubernamental de Corea del Sur, basadas en un análisis de competitividad, segmentación y <em>drivers</em> de mercado en Reino Unido y Alemania.</p>
+<p class="cons-desc"><strong>Competitividad y estrategia de mercados.</strong> Elaboré recomendaciones estratégicas para una agencia gubernamental de Corea del Sur, basadas en un análisis de competitividad, segmentación y <em>drivers</em> de mercado en Reino Unido y Alemania.</p>
 <div class="cons-tags"><span class="kw kw--merc" data-kw="investigacion-mercados">Investigación de mercados</span><span class="kw kw--estr" data-kw="estrategia">Estrategia</span></div>
 </div>
 <div class="cons-card" data-kw="gobernanza areas-protegidas conservacion">
 <div class="cons-head"><span class="cons-org">Graglia Consulting Group</span><span class="cons-date">set – dic 2022</span></div>
 <div class="cons-role">Analista Técnico</div>
-<p class="cons-desc">Diseñó propuestas técnicas para fortalecer la gobernanza y la gestión participativa en dos áreas naturales protegidas de la Amazonía peruana, articulando instrumentos de gestión y estrategias comerciales en coordinación con la UICN.</p>
+<p class="cons-desc"><strong>Gobernanza participativa en las ANP PN Río Abiseo y RC Amarakaeri.</strong> Diseñé propuestas técnicas para fortalecer la gobernanza y la gestión participativa en dos áreas protegidas de la Amazonía peruana, articulando instrumentos de gestión y estrategias comerciales en coordinación con la UICN.</p>
 <div class="cons-tags"><span class="kw kw--gob" data-kw="gobernanza">Gobernanza</span><span class="kw kw--areas" data-kw="areas-protegidas">Áreas protegidas</span><span class="kw kw--cons" data-kw="conservacion">Conservación</span></div>
 </div>
 </div>

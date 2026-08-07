@@ -6,19 +6,19 @@ summary: "Experiencia profesional"
 
 Mi trayectoria profesional combina la planificación estratégica, el monitoreo y
 la sostenibilidad en organizaciones de desarrollo, fondos ambientales y
-laboratorios de innovación pública en Perú.
+organizaciones de innovación social en Perú.
 
 <div class="cons-grid">
 <div class="cons-card">
-<div class="cons-head"><span class="cons-org">CEDEP — Centro de Estudios para el Desarrollo y la Participación</span><span class="cons-date">ene 2026 – presente</span></div>
+<div class="cons-head"><span class="cons-org">CEDEP - Centro de Estudios para el Desarrollo y la Participación</span><span class="cons-date">ene 2026 – presente</span></div>
 <div class="cons-role">Coordinador de Planificación</div>
-<ul class="tl-bullets"><li>Conduce la actualización del Plan Estratégico Institucional (PEI) 2026–2030, alineando los objetivos operativos con la Agenda 2030 y el Marco Mundial de Biodiversidad.</li><li>Opera el ecosistema de monitoreo y aprendizaje de la cartera nacional de proyectos (Ayacucho y Áncash) en gestión hídrica, desarrollo productivo y empoderamiento femenino.</li><li>Asegura la solvencia técnica y financiera de los proyectos mediante reportes para cooperantes (Misereor, Brot für die Welt) y fiscalizadores (APCI), e institucionaliza políticas de salvaguardas bajo estándares internacionales.</li></ul>
+<ul class="tl-bullets"><li>Conduce la actualización del Plan Estratégico Institucional (PEI) 2026–2030, alineado con la Agenda 2030 y el Marco Mundial de Biodiversidad.</li><li>Opera el ecosistema de monitoreo y aprendizaje de la cartera nacional de proyectos en gestión hídrica, desarrollo productivo y empoderamiento femenino (Ayacucho y Áncash).</li><li>Asegura la solvencia técnica y financiera mediante reportes a cooperantes (Misereor, Brot für die Welt) y fiscalizadores (APCI), e institucionaliza salvaguardas.</li></ul>
 <div class="cons-tags"><span class="kw kw--gestion" style="cursor:default">Planificación &amp; MEL</span></div>
 </div>
 <div class="cons-card">
-<div class="cons-head"><span class="cons-org">Aquafondo — Fondo de Agua para Lima y Callao</span><span class="cons-date">feb 2023 – set 2025</span></div>
+<div class="cons-head"><span class="cons-org">Aquafondo - Fondo de Agua para Lima y Callao</span><span class="cons-date">feb 2023 – set 2025</span></div>
 <div class="cons-role">Analista de Estrategia y Desarrollo Organizacional</div>
-<ul class="tl-bullets"><li>Lideró la formulación del Plan Estratégico Institucional 2024–2028, integrando metas de sostenibilidad e indicadores de impacto.</li><li>Diseñó e implementó el sistema institucional de planificación y monitoreo, incluyendo una línea base socioeconómica en 10 comunidades altoandinas de la subcuenca Santa Eulalia (Huarochirí).</li><li>Formuló propuestas técnicas de adaptación al cambio climático que lograron financiamiento semilla de la cooperación suiza (COSUDE) y reconocimiento en los Local Adaptation Champions Awards y el XIII BIAU, con una capacidad de movilización de USD 65,000.</li><li>Coordinó 2 investigaciones aplicadas con MINAM, INAIGEM y UTEC sobre monitoreo hidrológico en amunas y cobertura vegetal en bofedales, y diseñó el reglamento del Sello Empresa Hídricamente Responsable.</li></ul>
+<ul class="tl-bullets"><li>Lideró la formulación del Plan Estratégico Institucional 2024–2028, integrando metas de sostenibilidad e indicadores de impacto.</li><li>Diseñó e implementó el sistema de planificación y monitoreo, con una línea base socioeconómica en 10 comunidades altoandinas de Santa Eulalia (Huarochirí).</li><li>Formuló propuestas de adaptación climática que lograron financiamiento semilla de COSUDE y reconocimiento en el XIII BIAU, movilizando USD 65,000.</li><li>Coordinó 2 investigaciones aplicadas con MINAM, INAIGEM y UTEC, y diseñó el reglamento del Sello Empresa Hídricamente Responsable.</li></ul>
 <div class="cons-tags"><span class="kw kw--hidricos" style="cursor:default">Sostenibilidad hídrica</span></div>
 </div>
 <div class="cons-card">
@@ -30,7 +30,7 @@ laboratorios de innovación pública en Perú.
 <div class="cons-card">
 <div class="cons-head"><span class="cons-org">Suyay: Jóvenes liderando el cambio</span><span class="cons-date">feb – jul 2019</span></div>
 <div class="cons-role">Coordinador de Proyecto</div>
-<ul class="tl-bullets"><li>Coordinó un proyecto financiado por Global Greengrants Fund (USD 5,000), promoviendo la acción climática juvenil mediante la generación de más de 10 propuestas de adaptación.</li></ul>
+<ul class="tl-bullets"><li>Coordinó un proyecto financiado por Global Greengrants Fund (USD 5,000), promoviendo la acción climática juvenil mediante más de 10 propuestas de adaptación.</li></ul>
 <div class="cons-tags"><span class="kw kw--sostenibilidad" style="cursor:default">Acción climática</span></div>
 </div>
 </div>
@@ -42,14 +42,14 @@ laboratorios de innovación pública en Perú.
 <span class="talk-year">2022</span>
 <h3 class="talk-title">Curso de Extensión Universitaria en Fiscalización Ambiental (CEU 2022)</h3>
 <p class="talk-pub">Organismo de Evaluación y Fiscalización Ambiental (OEFA) · ene – feb 2022</p>
-<p class="talk-syn">Especialización en el rol y las funciones del OEFA y en las herramientas de evaluación ambiental, supervisión, fiscalización y sanción. Obtuvo uno de los primeros puestos —Top 4— en la especialidad de Economía.</p>
+<p class="talk-syn">Especialización en el rol y funciones del OEFA y en herramientas de evaluación, supervisión y fiscalización ambiental; obtuvo el Top 4 en Economía.</p>
 <div class="cons-tags"><span class="kw kw--finanzas" style="cursor:default">🏅 Top 4 nacional · Economía</span></div>
 </div>
 <div class="talk-card">
 <span class="talk-year">2022</span>
-<h3 class="talk-title">Banco Central de Reserva del Perú — Sucursal Huancayo</h3>
+<h3 class="talk-title">Banco Central de Reserva del Perú - Sucursal Huancayo</h3>
 <p class="talk-pub">Practicante</p>
-<p class="talk-syn">Apoyo en la elaboración y actualización de indicadores y de la síntesis económica de las regiones Ica, Ayacucho y Junín.</p>
+<p class="talk-syn">Apoyo en la elaboración y actualización de indicadores y de la síntesis económica regional de Ica, Ayacucho y Junín, en el área de estudios económicos.</p>
 </div>
 </div>
 </div>

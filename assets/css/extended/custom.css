@@ -181,7 +181,7 @@ header .logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.65rem;
+    gap: 8px;
     margin: 0 auto;
 }
 .home-stats .stat {
@@ -191,8 +191,8 @@ header .logo {
     background: rgba(255, 255, 255, 0.12);
     border: 1px solid rgba(255, 255, 255, 0.24);
     border-radius: 12px;
-    padding: 0.6rem 0.7rem;
-    width: 152px;
+    padding: 0.55rem 0.45rem;
+    width: 112px;
 }
 .home-stats .stat b {
     font-family: Georgia, serif;
@@ -584,8 +584,26 @@ header .logo {
     transition: transform 0.15s ease;
 }
 .timeline--research .tl-year:hover { text-decoration: underline; }
-.tl-item.collapsed .tl-year::after { content: "▸"; }
-.tl-item.collapsed .tl-card { display: none; }
+.timeline--research .tl-year { font-size: 1.18rem; }
+/* Agrupación por año: un solo año por grupo, desplegable */
+.timeline--research .tl-yeargroup { position: relative; margin-bottom: 1.6rem; }
+.timeline--research .tl-yeargroup::before {
+    content: "";
+    position: absolute;
+    left: -29px;
+    top: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 3px solid var(--theme);
+    box-shadow: 0 0 0 1px var(--accent);
+}
+.timeline--research .tl-item::before { display: none; }
+.timeline--research .tl-item { margin-bottom: 1rem; }
+.tl-year-body { margin-top: 0.6rem; }
+.tl-yeargroup.collapsed .tl-year::after { content: "▸"; }
+.tl-yeargroup.collapsed .tl-year-body { display: none; }
 
 /* ==========================================================================
    CONSULTANCY — Buscador, etiquetas de colores y grid de tarjetas
@@ -731,3 +749,42 @@ header .logo {
 .cons-card .proj-stats { margin: 0.2rem 0 0.7rem; }
 .cons-card .proj-stats .stat-pill { padding: 3px 11px; }
 .cons-card .proj-stats .stat-pill b { font-size: 1rem; }
+
+/* Acordeón desplegable (Proyectos) */
+.accordion { margin-top: 1rem; }
+.acc-item { border-top: 1px solid var(--border); }
+.acc-item:last-child { border-bottom: 1px solid var(--border); }
+.acc-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary);
+    padding: 0.95rem 0.2rem;
+    text-align: left;
+}
+.acc-header:hover { color: var(--accent); }
+.acc-header::after {
+    content: "▾";
+    font-size: 0.6em;
+    color: var(--secondary);
+    flex-shrink: 0;
+}
+.acc-item.collapsed .acc-header::after { content: "▸"; }
+.acc-body { padding: 0 0.2rem 1.2rem; }
+.acc-item.collapsed .acc-body { display: none; }
+.acc-body > p:first-child { margin-top: 0; }
+.acc-sub {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--primary);
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 1rem 0 0.3rem;
+}

@@ -6,8 +6,7 @@ summary: "Investigación, publicaciones y presentaciones académicas"
 
 Mi producción académica se centra en investigaciones sobre sostenibilidad,
 gestión pública, turismo y economía del comportamiento, publicadas en revistas
-indexadas. Usa el **buscador** o filtra por **temática** para explorarlas. Las
-presentaciones académicas aparecen al final de la página.
+indexadas.
 
 <div class="research-controls" id="research-controls">
 <input id="research-search" type="search" placeholder="🔍 Buscar por título, tema o publicación…" autocomplete="off" aria-label="Buscar investigaciones">
@@ -29,8 +28,8 @@ presentaciones académicas aparecen al final de la página.
 <p class="research-count" id="research-count"></p>
 
 <div class="timeline timeline--research" id="investigaciones">
+<div class="tl-yeargroup" data-year="2026"><div class="tl-year">2026</div><div class="tl-year-body">
 <div class="tl-item" data-topics="educacion-financiera turismo covid-19">
-<div class="tl-year">2026</div>
 <div class="tl-tags"><button type="button" class="kw kw--finanzas" data-topic="educacion-financiera">Educación financiera</button><button type="button" class="kw kw--turismo" data-topic="turismo">Turismo</button><button type="button" class="kw kw--covid" data-topic="covid-19">COVID-19</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Educación financiera y turismo comunitario: lecciones de un programa piloto de tutorías personalizadas en líderes comunitarios del Valle del Colca</h3>
@@ -40,8 +39,9 @@ presentaciones académicas aparecen al final de la página.
 <a class="tl-link" href="https://revistasinvestigacion.unmsm.edu.pe/index.php/administrativas/article/view/30671" target="_blank" rel="noopener">Ver publicación →</a>
 </div>
 </div>
+</div></div>
+<div class="tl-yeargroup" data-year="2023"><div class="tl-year">2023</div><div class="tl-year-body">
 <div class="tl-item" data-topics="govtech gestion-publica innovacion">
-<div class="tl-year">2023</div>
 <div class="tl-tags"><button type="button" class="kw kw--govtech" data-topic="govtech">GovTech</button><button type="button" class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</button><button type="button" class="kw kw--innovacion" data-topic="innovacion">Innovación</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Serie GovTech Latinoamérica: lecciones aprendidas y posibilidades del ecosistema</h3>
@@ -52,29 +52,28 @@ presentaciones académicas aparecen al final de la página.
 </div>
 </div>
 <div class="tl-item" data-topics="recursos-hidricos sostenibilidad">
-<div class="tl-year">2023</div>
 <div class="tl-tags"><button type="button" class="kw kw--hidricos" data-topic="recursos-hidricos">Recursos hídricos</button><button type="button" class="kw kw--sostenibilidad" data-topic="sostenibilidad">Sostenibilidad</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Glosario de Términos para Fondos de Agua</h3>
-<div class="tl-meta"><span class="tl-pub">Aquafondo — Fondo de Agua para Lima y Callao (2023)</span></div>
+<div class="tl-meta"><span class="tl-pub">Aquafondo - Fondo de Agua para Lima y Callao (2023)</span></div>
 <p class="tl-syn">Sistematiza y estandariza la terminología especializada del sector agua para reducir las barreras de lenguaje técnico entre los distintos actores involucrados en su gestión.</p>
 <ul class="tl-bullets"><li>Compila conceptos clave de la normativa peruana e instrumentos internacionales.</li><li>Dirigido a actores públicos, privados, académicos y de la sociedad civil.</li></ul>
 <a class="tl-link" href="https://sinia.minam.gob.pe/sites/default/files/archivos/public/docs/Glosario%20de%20T%C3%A9rminos%20para%20Fondos%20de%20Agua.pdf" target="_blank" rel="noopener">Ver publicación →</a>
 </div>
 </div>
 <div class="tl-item" data-topics="turismo covid-19">
-<div class="tl-year">2023</div>
 <div class="tl-tags"><button type="button" class="kw kw--turismo" data-topic="turismo">Turismo</button><button type="button" class="kw kw--covid" data-topic="covid-19">COVID-19</button></div>
 <div class="tl-card">
 <h3 class="tl-title">La repercusión pandémica en las agencias de viaje y hospedajes del destino Pacaya Samiria, Perú: una aproximación cualitativa</h3>
-<div class="tl-meta"><span class="tl-pub">Cap. 7 — «Turismo en tiempos de cambio», CIET (2023)</span><span class="tl-fund">Financiamiento ≈ USD 2,000</span></div>
+<div class="tl-meta"><span class="tl-pub">Cap. 7 - «Turismo en tiempos de cambio», CIET (2023)</span><span class="tl-fund">Financiamiento ≈ USD 2,000</span></div>
 <p class="tl-syn">Análisis cualitativo de los efectos de la COVID-19 en los prestadores de servicios turísticos de Iquitos, principal puerta de acceso a la Reserva Nacional Pacaya Samiria (Loreto).</p>
 <ul class="tl-bullets"><li>Trayectoria de las empresas locales: de la parálisis inicial a la recuperación progresiva.</li><li>Impactos económicos directos e indirectos y reorientación de mercados.</li><li>Barreras estructurales del entorno amazónico.</li></ul>
 <a class="tl-link" href="https://www.estudiosenturismo.com.ar/Libro/Libro%20CIET-2023-02-978-987-20540-8-3.pdf" target="_blank" rel="noopener">Ver publicación →</a>
 </div>
 </div>
+</div></div>
+<div class="tl-yeargroup" data-year="2021"><div class="tl-year">2021</div><div class="tl-year-body">
 <div class="tl-item" data-topics="innovacion gestion-publica turismo">
-<div class="tl-year">2021</div>
 <div class="tl-tags"><button type="button" class="kw kw--innovacion" data-topic="innovacion">Innovación</button><button type="button" class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</button><button type="button" class="kw kw--turismo" data-topic="turismo">Turismo</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Laboratorios de innovación en economías emergentes: fundamentos básicos para el sector público</h3>
@@ -84,7 +83,6 @@ presentaciones académicas aparecen al final de la página.
 </div>
 </div>
 <div class="tl-item" data-topics="turismo covid-19 gestion-publica">
-<div class="tl-year">2021</div>
 <div class="tl-tags"><button type="button" class="kw kw--turismo" data-topic="turismo">Turismo</button><button type="button" class="kw kw--covid" data-topic="covid-19">COVID-19</button><button type="button" class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</button></div>
 <div class="tl-card">
 <h3 class="tl-title">El impacto de la Covid-19 en los destinos internacionales del Perú y opciones de política pública</h3>
@@ -94,19 +92,19 @@ presentaciones académicas aparecen al final de la página.
 <a class="tl-link" href="https://revistasinvestigacion.unmsm.edu.pe/index.php/administrativas/article/view/21824/17417" target="_blank" rel="noopener">Ver publicación →</a>
 </div>
 </div>
+</div></div>
+<div class="tl-yeargroup" data-year="2020"><div class="tl-year">2020</div><div class="tl-year-body">
 <div class="tl-item" data-topics="datos-abiertos gestion-publica">
-<div class="tl-year">2020</div>
 <div class="tl-tags"><button type="button" class="kw kw--datos" data-topic="datos-abiertos">Datos abiertos</button><button type="button" class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Presente y futuro de los datos abiertos: análisis y reflexión del caso peruano</h3>
-<div class="tl-meta"><span class="tl-pub">Fénix — Revista de la Biblioteca Nacional del Perú (2020)</span></div>
-<p class="tl-syn">Expone la utilidad, los avances y los retos de los datos abiertos en el Perú —el «petróleo del siglo XXI»— y su potencial aún no aprovechado para mejorar las decisiones públicas.</p>
+<div class="tl-meta"><span class="tl-pub">Fénix - Revista de la Biblioteca Nacional del Perú (2020)</span></div>
+<p class="tl-syn">Expone la utilidad, los avances y los retos de los datos abiertos en el Perú, el «petróleo del siglo XXI», y su potencial aún no aprovechado para mejorar las decisiones públicas.</p>
 <ul class="tl-bullets"><li>Prácticas nacionales de datos abiertos durante la crisis de la COVID-19.</li><li>Rezago del Perú frente a sus aliados de la Alianza del Pacífico.</li><li>Dos hitos para la agenda digital pospandemia y recomendaciones internacionales.</li></ul>
 <a class="tl-link" href="https://revistafenix.bnp.gob.pe/index.php/fenix/article/view/574/1038" target="_blank" rel="noopener">Ver publicación →</a>
 </div>
 </div>
 <div class="tl-item" data-topics="empleabilidad innovacion gestion-publica">
-<div class="tl-year">2020</div>
 <div class="tl-tags"><button type="button" class="kw kw--empleo" data-topic="empleabilidad">Empleabilidad</button><button type="button" class="kw kw--innovacion" data-topic="innovacion">Innovación</button><button type="button" class="kw kw--gestion" data-topic="gestion-publica">Gestión pública</button></div>
 <div class="tl-card">
 <h3 class="tl-title">Bosquejo de un bono de impacto social modificado con miras a enfrentar el problema de la empleabilidad juvenil</h3>
@@ -116,6 +114,7 @@ presentaciones académicas aparecen al final de la página.
 <a class="tl-link" href="https://revistasinvestigacion.unmsm.edu.pe/index.php/administrativas/article/view/19155/16071" target="_blank" rel="noopener">Ver publicación →</a>
 </div>
 </div>
+</div></div>
 </div>
 
 <p class="research-empty" id="research-empty" hidden>No se encontraron investigaciones con esos criterios. <a href="#" id="research-reset">Ver todas →</a></p>
@@ -128,27 +127,31 @@ presentaciones académicas aparecen al final de la página.
 <span class="talk-year">2024</span>
 <h3 class="talk-title">Panorama social de las iniciativas de Soluciones basadas en la Naturaleza (SbN)</h3>
 <p class="talk-pub">Simposio «Las Montañas, Nuestro Futuro» (MONFU)</p>
-<p class="talk-syn">Estudio piloto que evalúa los impactos sociales de las SbN mediante un enfoque de Conocimientos, Actitudes y Prácticas (CAP) en los ecosistemas de montaña de la microcuenca Carhuayumac, complementando la evaluación hidrológica para fortalecer la gobernanza del agua.</p>
+<div class="cons-tags"><span class="kw kw--sostenibilidad" style="cursor:default">Sostenibilidad</span><span class="kw kw--hidricos" style="cursor:default">Recursos hídricos</span></div>
+<p class="talk-syn">Estudio piloto que evalúa los impactos sociales de las Soluciones basadas en la Naturaleza (SbN) mediante un enfoque CAP en los ecosistemas de montaña de la microcuenca Carhuayumac.</p>
 <a class="tl-link" href="https://repositorio.inaigem.gob.pe/server/api/core/bitstreams/aebc6d37-a233-4cab-8799-6a473bad902f/content" target="_blank" rel="noopener">Ver más →</a>
 </div>
 <div class="talk-card">
 <span class="talk-year">2023</span>
 <h3 class="talk-title">II Encuentro Regional de Fondos de Agua</h3>
 <p class="talk-pub">Fundación Futuro Latinoamericano (FFLA)</p>
-<p class="talk-syn">Espacio regional que reunió a fondos de agua de Perú, Colombia y Ecuador para intercambiar experiencias y fortalecer estrategias colaborativas de gestión sostenible de los recursos hídricos en la región andina.</p>
+<div class="cons-tags"><span class="kw kw--hidricos" style="cursor:default">Recursos hídricos</span><span class="kw kw--sostenibilidad" style="cursor:default">Sostenibilidad</span></div>
+<p class="talk-syn">Espacio regional que reunió a fondos de agua de Perú, Colombia y Ecuador para intercambiar experiencias y fortalecer la gestión sostenible de los recursos hídricos andinos.</p>
 <a class="tl-link" href="https://www.ffla.net/es/taller-anual-pafa/" target="_blank" rel="noopener">Ver más →</a>
 </div>
 <div class="talk-card">
 <span class="talk-year">2022</span>
 <h3 class="talk-title">Laboratorios de innovación en el sector público</h3>
 <p class="talk-pub">Congreso CABER 2022 · PUCP</p>
-<p class="talk-syn">Investigación sobre la viabilidad de los laboratorios de innovación en el sector público peruano, con énfasis en el sector turismo, identificando factores organizacionales, políticos y de liderazgo favorables a su implementación.</p>
+<div class="cons-tags"><span class="kw kw--innovacion" style="cursor:default">Innovación</span><span class="kw kw--gestion" style="cursor:default">Gestión pública</span></div>
+<p class="talk-syn">Investigación sobre la viabilidad de los laboratorios de innovación en el sector público peruano, identificando factores organizacionales, políticos y de liderazgo, con énfasis en turismo.</p>
 </div>
 <div class="talk-card">
 <span class="talk-year">2021</span>
 <h3 class="talk-title">Redacción de artículos científicos para publicación en revistas indexadas</h3>
 <p class="talk-pub">Congreso Peruano de Turismo (CONPETUR)</p>
-<p class="talk-syn">Ponencia orientada a compartir metodologías, herramientas y buenas prácticas para la elaboración y publicación de investigaciones científicas en revistas académicas indexadas.</p>
+<div class="cons-tags"><span class="kw kw--turismo" style="cursor:default">Turismo</span></div>
+<p class="talk-syn">Ponencia sobre metodologías, herramientas y buenas prácticas para la elaboración y publicación de investigaciones científicas en revistas académicas indexadas.</p>
 </div>
 </div>
 </div>
@@ -158,8 +161,9 @@ presentaciones académicas aparecen al final de la página.
 <div class="talks-grid">
 <div class="talk-card">
 <span class="talk-year">2023</span>
-<h3 class="talk-title">RAN — Revista de Academia &amp; Negocios</h3>
+<h3 class="talk-title">RAN - Revista de Academia &amp; Negocios</h3>
 <p class="talk-pub">Universidad de Concepción, Chile</p>
+<div class="cons-tags"><span class="kw kw--gestion" style="cursor:default">Gestión pública</span></div>
 <p class="talk-syn">Miembro del comité revisor · Vol. 9, Núm. 1 (2023).</p>
 </div>
 </div>
@@ -170,6 +174,7 @@ presentaciones académicas aparecen al final de la página.
   var search = document.getElementById('research-search');
   var chips = document.querySelectorAll('#research-controls .kw-chip');
   var items = document.querySelectorAll('#investigaciones .tl-item');
+  var groups = document.querySelectorAll('#investigaciones .tl-yeargroup');
   var countEl = document.getElementById('research-count');
   var emptyEl = document.getElementById('research-empty');
   var resetLink = document.getElementById('research-reset');
@@ -192,6 +197,10 @@ presentaciones académicas aparecen al final de la página.
       var show = okTopic && okText;
       it.style.display = show ? '' : 'none';
       if (show) visible++;
+    });
+    groups.forEach(function (g) {
+      var any = Array.prototype.some.call(g.querySelectorAll('.tl-item'), function (it) { return it.style.display !== 'none'; });
+      g.style.display = any ? '' : 'none';
     });
     countEl.textContent = (visible === total)
       ? total + ' investigaciones'
@@ -220,19 +229,12 @@ presentaciones académicas aparecen al final de la página.
     });
   });
 
-  // Colapsar / desplegar cada investigación al hacer clic en el año
+  // Un año por grupo: clic en el año expande/contrae todos sus artículos
   document.querySelectorAll('#investigaciones .tl-year').forEach(function (year) {
     year.setAttribute('role', 'button');
     year.setAttribute('tabindex', '0');
     year.setAttribute('title', 'Mostrar u ocultar los artículos de este año');
-    function toggle() {
-      var y = year.textContent.trim();
-      var willCollapse = !year.closest('.tl-item').classList.contains('collapsed');
-      items.forEach(function (it) {
-        var iy = it.querySelector('.tl-year');
-        if (iy && iy.textContent.trim() === y) it.classList.toggle('collapsed', willCollapse);
-      });
-    }
+    function toggle() { year.closest('.tl-yeargroup').classList.toggle('collapsed'); }
     year.addEventListener('click', toggle);
     year.addEventListener('keydown', function (e) {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }

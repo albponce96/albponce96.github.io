@@ -36,9 +36,9 @@ de Estudios para el Desarrollo y la Participación).
 
 ### Formación
 
-- **Bachiller en Economía** — Universidad Continental (2025)
-- **Intercambio académico en Ingeniería Comercial** — Universidad Andrés Bello, Chile (2022)
-- **Licenciatura en Administración** — Universidad Nacional Mayor de San Marcos (2020)
+- **Bachiller en Economía** – Universidad Continental (2025)
+- **Intercambio académico en Ingeniería Comercial** – Universidad Andrés Bello, Chile (2022)
+- **Licenciatura en Administración** – Universidad Nacional Mayor de San Marcos (2020)
 
 ---
 
@@ -56,5 +56,4 @@ de Estudios para el Desarrollo y la Participación).
 ### Intereses personales
 
 Más allá del ámbito profesional, disfruto de la fotografía como forma de
-registrar territorios, comunidades y paisajes. *(Aquí puedes enlazar tu página
-de fotos cuando la tengas lista.)*
+registrar territorios, comunidades y paisajes.
