@@ -10,7 +10,13 @@ organizaciones de innovación social en Perú.
 
 <div class="cons-grid">
 <div class="cons-card">
-<div class="cons-head"><span class="cons-org">CEDEP - Centro de Estudios para el Desarrollo y la Participación</span><span class="cons-date">ene 2026 – presente</span></div>
+<div class="cons-head"><span class="cons-org">FZS Perú - Sociedad Zoológica de Fráncfort</span><span class="cons-date">set 2026 – presente</span></div>
+<div class="cons-role">Coordinador de Programa y Dirección</div>
+<p class="cons-desc">Brindo soporte estratégico y técnico-operativo a la Dirección en la planificación, gestión, seguimiento y reporte de los proyectos de FZS Perú.</p>
+<div class="cons-tags"><span class="kw kw--gestion" style="cursor:default">Planificación &amp; MEL</span></div>
+</div>
+<div class="cons-card">
+<div class="cons-head"><span class="cons-org">CEDEP - Centro de Estudios para el Desarrollo y la Participación</span><span class="cons-date">ene – ago 2026</span></div>
 <div class="cons-role">Coordinador de Planificación</div>
 <p class="cons-desc">Conduzco la actualización del Plan Estratégico Institucional 2026–2030 y opero el ecosistema de monitoreo de la cartera nacional (Ayacucho, Huancavelica y Áncash). Aseguro la solvencia técnica y financiera ante cooperantes y fiscalizadores, e institucionalizo políticas de transparencia y prevención de riesgos (SPLAFT, Código de Conducta).</p>
 <div class="cons-tags"><span class="kw kw--gestion" style="cursor:default">Planificación &amp; MEL</span></div>

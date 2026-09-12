@@ -18,8 +18,8 @@ sociales, y aplicando metodologías cuantitativas y cualitativas.
 
 A mi perfil técnico sumo experiencia en investigación aplicada,
 docencia y publicaciones académicas en gestión pública y sostenibilidad.
-Actualmente me desempeño como **Coordinador de Planificación en CEDEP** (Centro
-de Estudios para el Desarrollo y la Participación).
+Actualmente me desempeño como **Coordinador de Programa y Dirección en FZS
+Perú** (Sociedad Zoológica de Fráncfort).
 
 ---
 
